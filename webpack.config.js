@@ -1,15 +1,11 @@
 module.exports = (env, argv) => ({
   entry: './src/index',
   output: {
-    path: `${__dirname}/public`,
+    path: `${__dirname}/public/javascripts`,
     filename: 'bundle.js'
   },
   module: {
     rules: [
-      {
-        test: require.resolve('snapsvg'),
-        loader: 'imports-loader?this=>window,fix=>module.exports=0'
-      },
       {
         test: /\.js$/,
         exclude: /node_modules/,

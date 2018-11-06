@@ -7,11 +7,13 @@ var mongoose = require('mongoose');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var catalogRouter = require('./routes/catalog'); //Import routes for "catalog" area of site
+var landingRouter = require('./routes/landing');
+require('dotenv').config();
 
 var app = express();
 
 //Set up mongoose connection
-var mongoDB = 'mongodb://avozhd:Passw0rd1212@ds253203.mlab.com:53203/sm_library';
+var mongoDB = 'mongodb://' + process.env.DB_USER + ':' + process.env.DB_PASSWORD +'@' + process.env.DB_LIBRARY_PATH;
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
@@ -28,6 +30,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
+app.use('/landing', landingRouter);
 app.use('/users', usersRouter);
 app.use('/catalog', catalogRouter);  // Add catalog routes to middleware chain.
 
