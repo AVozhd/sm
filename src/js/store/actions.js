@@ -6,3 +6,10 @@ export const setWindowDimensions = (newWindowDimensions) => {
     payload: newWindowDimensions
   };
 };
+
+export const getCardDim = (cardDimensions) => {
+  return {
+    type: types.ACTION_GET_CARD_DIM,
+    payload: cardDimensions
+  };
+};

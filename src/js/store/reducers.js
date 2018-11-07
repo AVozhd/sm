@@ -11,6 +11,14 @@ export const rootReducer = (state = initialAppState, action) => {
           dimensions: action.payload
         }
       };
+    case types.ACTION_GET_CARD_DIM:
+      return {
+        ...state,
+        cards: {
+          ...state.cards,
+          dimensions: action.payload
+        }
+      };
   }
   return state;
 };

@@ -13,16 +13,19 @@ class Section2 extends React.Component {
         </h1>
         <div className="container">
           <div className="row">
-            <Card klass="col-lg-4 col-md-6 col-12"
+            <Card containerKlass="col-lg-4 col-md-6 col-12"
                   imgpath="images/card1.jpg"
+                  cardKlass="card1"
                   title="Новичкам"
                   tekst="Курс поможет Вам разобраться: как работает Instagram; как Вы можете начать зарабатывать на ведении других страничек." />
-            <Card klass="col-lg-4 col-md-6 col-12"
+            <Card containerKlass="col-lg-4 col-md-6 col-12"
                   imgpath="images/card2.jpg"
+                  cardKlass="card2"
                   title="Специалистам с базовыми знаниями"
                   tekst="Полная проверка домашнего задания поможет Вам найти свои ошибки. Так же курс полезен тем, кто хочет узнать новейшие инструменты и изменения в Instagram." />
-            <Card klass="col-lg-4 col-md-6 col-12"
+            <Card containerKlass="col-lg-4 col-md-6 col-12"
                   imgpath="images/card3.jpg"
+                  cardKlass="card3"
                   title="Владельцам бизнеса и самозанятым"
                   tekst="Курс поможет Вам самостоятельно развивать Вашу страничку. Если Вам важно понять, что 'заходит' в Instagram, а что нет." />
           </div>
@@ -33,9 +36,9 @@ class Section2 extends React.Component {
 }
 
 Section2.propTypes = {
-  windowDimensions: PropTypes.object
+  windowDimensions: PropTypes.object,
 };
 
 export default connect((state => ({
-  windowDimensions: state.viewport.dimensions
+  windowDimensions: state.viewport.dimensions,
 })), (dispatch => ({})))(Section2);

@@ -4,6 +4,12 @@ const initialAppState = {
       height: 0,
       width: 0,
     }
+  },
+  cards: {
+    dimensions: {
+      height: [],
+      width: [],
+    }
   }
 };
 

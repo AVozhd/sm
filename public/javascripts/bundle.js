@@ -43099,16 +43099,19 @@ var Section2 = function (_React$Component) {
           _react2.default.createElement(
             'div',
             { className: 'row' },
-            _react2.default.createElement(_Card2.default, { klass: 'col-lg-4 col-md-6 col-12',
+            _react2.default.createElement(_Card2.default, { containerKlass: 'col-lg-4 col-md-6 col-12',
               imgpath: 'images/card1.jpg',
+              cardKlass: 'card1',
               title: '\u041D\u043E\u0432\u0438\u0447\u043A\u0430\u043C',
               tekst: '\u041A\u0443\u0440\u0441 \u043F\u043E\u043C\u043E\u0436\u0435\u0442 \u0412\u0430\u043C \u0440\u0430\u0437\u043E\u0431\u0440\u0430\u0442\u044C\u0441\u044F: \u043A\u0430\u043A \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442 Instagram; \u043A\u0430\u043A \u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u043D\u0430\u0447\u0430\u0442\u044C \u0437\u0430\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0442\u044C \u043D\u0430 \u0432\u0435\u0434\u0435\u043D\u0438\u0438 \u0434\u0440\u0443\u0433\u0438\u0445 \u0441\u0442\u0440\u0430\u043D\u0438\u0447\u0435\u043A.' }),
-            _react2.default.createElement(_Card2.default, { klass: 'col-lg-4 col-md-6 col-12',
+            _react2.default.createElement(_Card2.default, { containerKlass: 'col-lg-4 col-md-6 col-12',
               imgpath: 'images/card2.jpg',
+              cardKlass: 'card2',
               title: '\u0421\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442\u0430\u043C \u0441 \u0431\u0430\u0437\u043E\u0432\u044B\u043C\u0438 \u0437\u043D\u0430\u043D\u0438\u044F\u043C\u0438',
               tekst: '\u041F\u043E\u043B\u043D\u0430\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0434\u043E\u043C\u0430\u0448\u043D\u0435\u0433\u043E \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u043F\u043E\u043C\u043E\u0436\u0435\u0442 \u0412\u0430\u043C \u043D\u0430\u0439\u0442\u0438 \u0441\u0432\u043E\u0438 \u043E\u0448\u0438\u0431\u043A\u0438. \u0422\u0430\u043A \u0436\u0435 \u043A\u0443\u0440\u0441 \u043F\u043E\u043B\u0435\u0437\u0435\u043D \u0442\u0435\u043C, \u043A\u0442\u043E \u0445\u043E\u0447\u0435\u0442 \u0443\u0437\u043D\u0430\u0442\u044C \u043D\u043E\u0432\u0435\u0439\u0448\u0438\u0435 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u044B \u0438 \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u0432 Instagram.' }),
-            _react2.default.createElement(_Card2.default, { klass: 'col-lg-4 col-md-6 col-12',
+            _react2.default.createElement(_Card2.default, { containerKlass: 'col-lg-4 col-md-6 col-12',
               imgpath: 'images/card3.jpg',
+              cardKlass: 'card3',
               title: '\u0412\u043B\u0430\u0434\u0435\u043B\u044C\u0446\u0430\u043C \u0431\u0438\u0437\u043D\u0435\u0441\u0430 \u0438 \u0441\u0430\u043C\u043E\u0437\u0430\u043D\u044F\u0442\u044B\u043C',
               tekst: '\u041A\u0443\u0440\u0441 \u043F\u043E\u043C\u043E\u0436\u0435\u0442 \u0412\u0430\u043C \u0441\u0430\u043C\u043E\u0441\u0442\u043E\u044F\u0442\u0435\u043B\u044C\u043D\u043E \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0442\u044C \u0412\u0430\u0448\u0443 \u0441\u0442\u0440\u0430\u043D\u0438\u0447\u043A\u0443. \u0415\u0441\u043B\u0438 \u0412\u0430\u043C \u0432\u0430\u0436\u043D\u043E \u043F\u043E\u043D\u044F\u0442\u044C, \u0447\u0442\u043E \'\u0437\u0430\u0445\u043E\u0434\u0438\u0442\' \u0432 Instagram, \u0430 \u0447\u0442\u043E \u043D\u0435\u0442.' })
           )
@@ -43180,36 +43183,109 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _redux = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _actions = __webpack_require__(/*! ../../store/actions */ "./src/js/store/actions.js");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Card = function Card(_ref) {
-  var klass = _ref.klass,
-      imgpath = _ref.imgpath,
-      title = _ref.title,
-      tekst = _ref.tekst;
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
-  return _react2.default.createElement(
-    "div",
-    { className: klass },
-    _react2.default.createElement("img", { className: "section2-card-img", src: imgpath }),
-    _react2.default.createElement(
-      "h3",
-      { className: "section2-card-title" },
-      title
-    ),
-    _react2.default.createElement(
-      "p",
-      null,
-      tekst
-    )
-  );
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Card = function (_React$Component) {
+  _inherits(Card, _React$Component);
+
+  function Card() {
+    _classCallCheck(this, Card);
+
+    var _this = _possibleConstructorReturn(this, (Card.__proto__ || Object.getPrototypeOf(Card)).call(this));
+
+    _this.state = {
+      height: 0,
+      width: 0
+    };
+    return _this;
+  }
+
+  _createClass(Card, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      setTimeout(function () {
+        _this2.ref = _this2.card;
+        _this2.props.cardsDimensions.height.push(_this2.ref.clientHeight);
+        _this2.props.cardsDimensions.width.push(_this2.ref.clientWidth);
+        var min = Math.min.apply(Math, _toConsumableArray(_this2.props.cardsDimensions.height));
+        var max = Math.max.apply(Math, _toConsumableArray(_this2.props.cardsDimensions.width));
+        _this2.setState({
+          height: min,
+          width: max
+        });
+      }, 1);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this3 = this;
+
+      return _react2.default.createElement(
+        'div',
+        { className: this.props.containerKlass },
+        _react2.default.createElement('img', { ref: function ref(element) {
+            return _this3.card = element;
+          },
+          className: 'section2-card-img ' + this.props.cardKlass,
+          style: this.state.height === 0 ? null : { height: this.state.height, width: this.state.width },
+          src: this.props.imgpath }),
+        _react2.default.createElement(
+          'h3',
+          { className: 'section2-card-title' },
+          this.props.title
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          this.props.tekst
+        )
+      );
+    }
+  }]);
+
+  return Card;
+}(_react2.default.Component);
+
+Card.propTypes = {
+  cardsDimensions: _propTypes2.default.object,
+  getCardDim: _propTypes2.default.func
 };
 
-exports.default = Card;
+exports.default = (0, _reactRedux.connect)(function (state) {
+  return {
+    cardsDimensions: state.cards.dimensions
+  };
+}, function (dispatch) {
+  return {
+    getCardDim: (0, _redux.bindActionCreators)(_actions.getCardDim, dispatch)
+  };
+})(Card);
 
 /***/ }),
 
@@ -43254,7 +43330,7 @@ exports.default = Logo;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.setWindowDimensions = undefined;
+exports.getCardDim = exports.setWindowDimensions = undefined;
 
 var _actionsTypes = __webpack_require__(/*! ./actionsTypes */ "./src/js/store/actionsTypes.js");
 
@@ -43266,6 +43342,13 @@ var setWindowDimensions = exports.setWindowDimensions = function setWindowDimens
   return {
     type: types.ACTION_RESIZE_WINDOW,
     payload: newWindowDimensions
+  };
+};
+
+var getCardDim = exports.getCardDim = function getCardDim(cardDimensions) {
+  return {
+    type: types.ACTION_GET_CARD_DIM,
+    payload: cardDimensions
   };
 };
 
@@ -43285,6 +43368,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var ACTION_RESIZE_WINDOW = exports.ACTION_RESIZE_WINDOW = 'ACTION_RESIZE_WINDOW';
+var ACTION_GET_CARD_DIM = exports.ACTION_GET_CARD_DIM = 'ACTION_GET_CARD_DIM';
 
 /***/ }),
 
@@ -43306,6 +43390,12 @@ var initialAppState = {
     dimensions: {
       height: 0,
       width: 0
+    }
+  },
+  cards: {
+    dimensions: {
+      height: [],
+      width: []
     }
   }
 };
@@ -43351,6 +43441,12 @@ var rootReducer = exports.rootReducer = function rootReducer() {
     case types.ACTION_RESIZE_WINDOW:
       return _extends({}, state, {
         viewport: _extends({}, state.viewport, {
+          dimensions: action.payload
+        })
+      });
+    case types.ACTION_GET_CARD_DIM:
+      return _extends({}, state, {
+        cards: _extends({}, state.cards, {
           dimensions: action.payload
         })
       });
