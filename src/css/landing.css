@@ -1,0 +1,40 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.cover-image {
+  background: url(../../public/images/mountains1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.topsection-view {
+  height: inherit;
+  width: inherit;
+  background-color:rgba(0, 0, 0, 0.4);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.topsection-container {
+  height: inherit;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+/*html,
+body,
+#intro {
+  height: 100%;
+}
+
+#intro {
+  background: url(../../public/images/mountains1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/

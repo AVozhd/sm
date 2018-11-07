@@ -1,5 +1,5 @@
 import 'bootstrap';
-import './css/index.css';
+import './css/landing.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { rootReducer } from'./js/store/reducers';
