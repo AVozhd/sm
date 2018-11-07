@@ -60,7 +60,11 @@ text {
   fill:transparent;
 }
 
-.btn3-selector {
+.btn1-selector,
+.btn2-selector,
+.btn3-selector,
+.btn4-selector,
+.btn5-selector {
   cursor: pointer;
 }
 
