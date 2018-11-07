@@ -1,7 +1,8 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import 'fonts.css';
 
 .cover-image {
-  background: url(../../public/images/mountains1.jpg) no-repeat center center fixed;
+  background: url(../../public/images/cover1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,30 +12,68 @@
 .topsection-view {
   height: inherit;
   width: inherit;
-  background-color:rgba(0, 0, 0, 0.4);
+  background-color:rgba(0, 0, 0, 0.5);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.topsection-container {
+.container,
+.row {
   height: inherit;
-  display: grid;
-  justify-items: center;
-  align-items: center;
 }
 
-/*html,
-body,
-#intro {
-  height: 100%;
+.image-me-container {
+  display: flex;
+  align-items: flex-end;
 }
 
-#intro {
-  background: url(../../public/images/mountains1.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
+.image-me {
+  height: inherit;
+  width: inherit;
+  bottom: 0;
+  margin-left: auto;
+}
+
+.topsection-text-container {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.topsection-h1,
+.topsection-h3 {
+  color: white;
+  text-align: center;
+}
+
+.topsection-h1 {
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .topsection-h1 {
+    font-size: 60px;
+  }
+}
+
+.logo {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.btn-main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background-color: #012130;
+  border: 1px solid white;
+  padding: 10px 0;
+}
+
+
