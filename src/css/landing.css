@@ -93,3 +93,10 @@
 .section2-card-title {
   font-weight: bold;
 }
+
+.card {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  border: none;
+}

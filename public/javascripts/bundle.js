@@ -4187,7 +4187,7 @@ exports.i(__webpack_require__(/*! -!../../node_modules/css-loader!bootstrap/dist
 exports.i(__webpack_require__(/*! -!../../node_modules/css-loader!./fonts.css */ "./node_modules/css-loader/index.js!./src/css/fonts.css"), "");
 
 // module
-exports.push([module.i, ".cover-image {\n  background: url(" + escape(__webpack_require__(/*! ../../public/images/cover1.jpg */ "./public/images/cover1.jpg")) + ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color:rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 50px;\n  margin-bottom: 70px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width:100%;\n  max-height:100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n", ""]);
+exports.push([module.i, ".cover-image {\n  background: url(" + escape(__webpack_require__(/*! ../../public/images/cover1.jpg */ "./public/images/cover1.jpg")) + ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color:rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 50px;\n  margin-bottom: 70px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width:100%;\n  max-height:100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin-bottom: 50px;\n  display: flex;\n  align-items: center;\n  border: none;\n}\n", ""]);
 
 // exports
 
@@ -43083,6 +43083,15 @@ var Section2 = function (_React$Component) {
   }
 
   _createClass(Section2, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      window.addEventListener('resize', function () {
+        _this2.render();
+      });
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -43099,17 +43108,17 @@ var Section2 = function (_React$Component) {
           _react2.default.createElement(
             'div',
             { className: 'row' },
-            _react2.default.createElement(_Card2.default, { containerKlass: 'col-lg-4 col-md-6 col-12',
+            _react2.default.createElement(_Card2.default, { containerKlass: 'card col-lg-4 col-md-6 col-12',
               imgpath: 'images/card1.jpg',
               cardKlass: 'card1',
               title: '\u041D\u043E\u0432\u0438\u0447\u043A\u0430\u043C',
               tekst: '\u041A\u0443\u0440\u0441 \u043F\u043E\u043C\u043E\u0436\u0435\u0442 \u0412\u0430\u043C \u0440\u0430\u0437\u043E\u0431\u0440\u0430\u0442\u044C\u0441\u044F: \u043A\u0430\u043A \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442 Instagram; \u043A\u0430\u043A \u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u043D\u0430\u0447\u0430\u0442\u044C \u0437\u0430\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0442\u044C \u043D\u0430 \u0432\u0435\u0434\u0435\u043D\u0438\u0438 \u0434\u0440\u0443\u0433\u0438\u0445 \u0441\u0442\u0440\u0430\u043D\u0438\u0447\u0435\u043A.' }),
-            _react2.default.createElement(_Card2.default, { containerKlass: 'col-lg-4 col-md-6 col-12',
+            _react2.default.createElement(_Card2.default, { containerKlass: 'card col-lg-4 col-md-6 col-12',
               imgpath: 'images/card2.jpg',
               cardKlass: 'card2',
               title: '\u0421\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442\u0430\u043C \u0441 \u0431\u0430\u0437\u043E\u0432\u044B\u043C\u0438 \u0437\u043D\u0430\u043D\u0438\u044F\u043C\u0438',
               tekst: '\u041F\u043E\u043B\u043D\u0430\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0434\u043E\u043C\u0430\u0448\u043D\u0435\u0433\u043E \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u043F\u043E\u043C\u043E\u0436\u0435\u0442 \u0412\u0430\u043C \u043D\u0430\u0439\u0442\u0438 \u0441\u0432\u043E\u0438 \u043E\u0448\u0438\u0431\u043A\u0438. \u0422\u0430\u043A \u0436\u0435 \u043A\u0443\u0440\u0441 \u043F\u043E\u043B\u0435\u0437\u0435\u043D \u0442\u0435\u043C, \u043A\u0442\u043E \u0445\u043E\u0447\u0435\u0442 \u0443\u0437\u043D\u0430\u0442\u044C \u043D\u043E\u0432\u0435\u0439\u0448\u0438\u0435 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u044B \u0438 \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u0432 Instagram.' }),
-            _react2.default.createElement(_Card2.default, { containerKlass: 'col-lg-4 col-md-6 col-12',
+            _react2.default.createElement(_Card2.default, { containerKlass: ' card col-lg-4 col-md-6 col-12',
               imgpath: 'images/card3.jpg',
               cardKlass: 'card3',
               title: '\u0412\u043B\u0430\u0434\u0435\u043B\u044C\u0446\u0430\u043C \u0431\u0438\u0437\u043D\u0435\u0441\u0430 \u0438 \u0441\u0430\u043C\u043E\u0437\u0430\u043D\u044F\u0442\u044B\u043C',
