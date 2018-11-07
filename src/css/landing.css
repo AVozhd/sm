@@ -1,5 +1,6 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import 'fonts.css';
+@import 'svg.css';
 
 .cover-image {
   background: url(../../public/images/cover1.jpg) no-repeat center center fixed;

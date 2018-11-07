@@ -6,7 +6,7 @@ import { setWindowDimensions } from '../store/actions';
 import PropTypes from 'prop-types';
 import Section1 from './container/Section1';
 import Section2 from './container/Section2';
-
+import Section3 from './container/Section3';
 
 class MainComponent extends React.Component {
   constructor(props) {
@@ -22,6 +22,7 @@ class MainComponent extends React.Component {
       <React.Fragment>
         <Section1 />
         <Section2 />
+        <Section3 />
       </React.Fragment>
     )
   }

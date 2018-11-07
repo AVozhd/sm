@@ -7,6 +7,10 @@ module.exports = (env, argv) => ({
   module: {
     rules: [
       {
+        test: require.resolve('snapsvg'),
+        loader: 'imports-loader?this=>window,fix=>module.exports=0'
+      },
+      {
         test: /\.(png|jpg)$/,
         loader: 'url-loader'
       },
