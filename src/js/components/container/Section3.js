@@ -1,7 +1,32 @@
 import React from 'react';
 import $ from 'jquery';
+import Modal from '../presentational/Modal';
 
 export default class Section3 extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.handleShow = this.handleShow.bind(this);
+    this.handleClose = this.handleClose.bind(this);
+    this.modalBackdropClicked = this.modalBackdropClicked.bind(this);
+
+    this.state = {
+      show: false
+    };
+  }
+
+  modalBackdropClicked() {
+    this.handleClose();
+  }
+
+  handleClose() {
+    this.setState({ show: false });
+  }
+
+  handleShow() {
+    this.setState({ show: true });
+  }
+
   componentDidMount() {
     let selectors = [
       ".btn1-selector",
@@ -23,12 +48,27 @@ export default class Section3 extends React.Component {
       );
     });
 
+    selectors.map((selector) => {
+      $( selector ).on('click', (event) => {
+        this.handleShow();
+        // console.log(getSelectorClass(event));
+      });
+    });
+
 
   }
 
   render() {
     return(
       <React.Fragment>
+        <Modal visible={this.state.show} onClickBackdrop={this.modalBackdropClicked}>
+          <div className="modal-header">
+            <h3 className="modal-title">Red Alert!</h3>
+          </div>
+          <div className="modal-body">
+            <p>Enemy vessel approaching!</p>
+          </div>
+        </Modal>
         <div className="container">
           <svg xmlns="http://www.w4.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800">
             <defs>
@@ -164,4 +204,10 @@ const getSelector = (event) => {
   let preparedClassList = classList.filter(word => word.split('-')[1] === 'selector');
   let select = preparedClassList[0].split('-')[0];
   return select;
+};
+
+const getSelectorClass = (event) => {
+  let classList = $(event.currentTarget).attr('class').split(/\s+/);
+  let preparedClassList = classList.filter(word => word.split('-')[1] === 'selector');
+  return preparedClassList[0];
 };
