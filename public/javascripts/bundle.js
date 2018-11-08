@@ -4270,7 +4270,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".modal-header {\n  justify-content: center;\n}\n\n.modal-title {\n  font-weight: bold;\n}\n", ""]);
+exports.push([module.i, ".modal-header {\n  display: grid;\n  grid-template-columns: auto auto;\n  align-items: center;\n  padding-top: 25px;\n}\n\n.modal-title {\n  font-weight: bold;\n  margin: 0;\n}\n\n.modal-row {\n  display: grid;\n  grid-template-columns: 20px auto;\n}\n\n.modal-row p {\n  padding-left: 10px;\n}\n\n.modal-flag {\n  height: 20px;\n  width: 20px;\n}\n", ""]);
 
 // exports
 
@@ -43307,7 +43307,11 @@ var Section3 = function (_React$Component) {
     _this.modalBackdropClicked = _this.modalBackdropClicked.bind(_this);
 
     _this.state = {
-      show: false
+      show1: false,
+      show2: false,
+      show3: false,
+      show4: false,
+      show5: false
     };
     return _this;
   }
@@ -43320,12 +43324,35 @@ var Section3 = function (_React$Component) {
   }, {
     key: 'handleClose',
     value: function handleClose() {
-      this.setState({ show: false });
+      this.setState({
+        show1: false,
+        show2: false,
+        show3: false,
+        show4: false,
+        show5: false
+      });
     }
   }, {
     key: 'handleShow',
-    value: function handleShow() {
-      this.setState({ show: true });
+    value: function handleShow(stateNum) {
+      var showkey = 'show' + stateNum;
+      switch (showkey) {
+        case 'show1':
+          this.setState({ show1: true });
+          break;
+        case 'show2':
+          this.setState({ show2: true });
+          break;
+        case 'show3':
+          this.setState({ show3: true });
+          break;
+        case 'show4':
+          this.setState({ show4: true });
+          break;
+        case 'show5':
+          this.setState({ show5: true });
+          break;
+      }
     }
   }, {
     key: 'componentDidMount',
@@ -43346,8 +43373,8 @@ var Section3 = function (_React$Component) {
 
       selectors.map(function (selector) {
         (0, _jquery2.default)(selector).on('click', function (event) {
-          _this2.handleShow();
-          // console.log(getSelectorClass(event));
+          var stateNum = getSelectorClass(event).replace(/[^\d]/g, '');
+          _this2.handleShow(stateNum);
         });
       });
     }
@@ -43359,23 +43386,381 @@ var Section3 = function (_React$Component) {
         null,
         _react2.default.createElement(
           _Modal2.default,
-          { visible: this.state.show, onClickBackdrop: this.modalBackdropClicked },
+          { visible: this.state.show1, onClickBackdrop: this.modalBackdropClicked },
           _react2.default.createElement(
             'div',
             { className: 'modal-header' },
             _react2.default.createElement(
               'h3',
               { className: 'modal-title' },
-              'Red Alert!'
+              '\u0422\u0435\u043E\u0440\u0438\u044F \u043F\u0440\u043E Instagram'
+            ),
+            _react2.default.createElement(
+              'button',
+              { type: 'button', className: 'close', onClick: this.modalBackdropClicked },
+              _react2.default.createElement(
+                'span',
+                { 'aria-hidden': 'true' },
+                '\xD7'
+              )
             )
           ),
           _react2.default.createElement(
             'div',
             { className: 'modal-body' },
             _react2.default.createElement(
-              'p',
-              null,
-              'Enemy vessel approaching!'
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u0410\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u043B\u0438\u043C\u0438\u0442\u044B \u0438 \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0438\u044F \u043D\u0430 \u043F\u043B\u043E\u0449\u0430\u0434\u043A\u0435.'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041A\u0430\u043A\u0438\u0435 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u044B \u0435\u0441\u0442\u044C \u0432 Instagram?'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041A\u0430\u043A\u0438\u0435 \u0438\u0437 \u043D\u0438\u0445 \u0445\u043E\u0440\u043E\u0448\u0438 \u0434\u043B\u044F \u043B\u0438\u0447\u043D\u043E\u0433\u043E \u0431\u043B\u043E\u0433\u0430, \u043A\u0430\u043A\u0438\u0435 \u0434\u043B\u044F \u043C\u0430\u0433\u0430\u0437\u0438\u043D\u0430?'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u0427\u0442\u043E \u0442\u0430\u043A\u043E\u0435 \u0446\u0435\u043B\u0435\u0432\u0430\u044F \u0430\u0443\u0434\u0438\u0442\u043E\u0440\u0438\u044F \u0438 \u043A\u0430\u043A \u0435\u0435 \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0438\u0442\u044C?'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041A\u0430\u043A \u043E\u0444\u043E\u0440\u043C\u0438\u0442\u044C \u0441\u0442\u0440\u0430\u043D\u0438\u0447\u043A\u0443 \u0432 Instagram \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E?'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          { visible: this.state.show2, onClickBackdrop: this.modalBackdropClicked },
+          _react2.default.createElement(
+            'div',
+            { className: 'modal-header' },
+            _react2.default.createElement(
+              'h3',
+              { className: 'modal-title' },
+              '\u041A\u043E\u043D\u0442\u0435\u043D\u0442'
+            ),
+            _react2.default.createElement(
+              'button',
+              { type: 'button', className: 'close', onClick: this.modalBackdropClicked },
+              _react2.default.createElement(
+                'span',
+                { 'aria-hidden': 'true' },
+                '\xD7'
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'modal-body' },
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041A\u0430\u043A \u043F\u0438\u0441\u0430\u0442\u044C, \u0447\u0442\u043E\u0431\u044B \u0412\u044B \u0437\u0430\u043F\u043E\u043C\u043D\u0438\u043B\u0438\u0441\u044C \u0447\u0438\u0442\u0430\u0442\u0435\u043B\u044E?'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041E \u0447\u0435\u043C \u043F\u0438\u0441\u0430\u0442\u044C?'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041F\u0440\u0430\u0432\u0438\u043B\u0430 \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F \u043A\u043E\u043D\u0442\u0435\u043D\u0442-\u043F\u043B\u0430\u043D\u0430 (\u043F\u0440\u0438 \u043F\u0440\u043E\u0434\u0432\u0438\u0436\u0435\u043D\u0438\u0438 \u0441 \u043F\u043E\u043C\u043E\u0449\u044C\u044E \u043A\u043E\u043D\u043A\u0443\u0440\u0441\u043D\u044B\u0445 \u043C\u0435\u0445\u0430\u043D\u0438\u043A \u0438 \u0440\u0435\u043A\u043B\u0430\u043C\u044B)'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041E \u0447\u0435\u043C \u043F\u0438\u0441\u0430\u0442\u044C \u043C\u0430\u0433\u0430\u0437\u0438\u043D\u0443?'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          { visible: this.state.show3, onClickBackdrop: this.modalBackdropClicked },
+          _react2.default.createElement(
+            'div',
+            { className: 'modal-header' },
+            _react2.default.createElement(
+              'h3',
+              { className: 'modal-title' },
+              '\u0424\u043E\u0442\u043E-\u043A\u043E\u043D\u0442\u0435\u043D\u0442'
+            ),
+            _react2.default.createElement(
+              'button',
+              { type: 'button', className: 'close', onClick: this.modalBackdropClicked },
+              _react2.default.createElement(
+                'span',
+                { 'aria-hidden': 'true' },
+                '\xD7'
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'modal-body' },
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041F\u0440\u0430\u0432\u0438\u043B\u0430 \u043F\u043B\u0430\u043D\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041F\u0440\u0438\u0435\u043C\u044B \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u0438'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u0412\u0432\u043E\u0434\u043D\u044B\u0439 \u043A\u0443\u0440\u0441 \u043F\u043E Photoshop'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u0423\u0440\u043E\u043A-\u0432\u0434\u043E\u0445\u043D\u043E\u0432\u0435\u043D\u0438\u0435 \u0438 \u0440\u0430\u0437\u0431\u043E\u0440 \u043F\u0440\u043E\u0444\u0438\u043B\u0435\u0439 \u043D\u0430 \u043F\u0440\u0438\u043C\u0435\u0440\u0430\u0445'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041A\u0430\u043A \u043C\u0430\u0433\u0430\u0437\u0438\u043D\u0443 \u0438\u043B\u0438 \u0441\u0430\u043B\u043E\u043D\u0443 \u0441\u0434\u0435\u043B\u0430\u0442\u044C \u043F\u0440\u043E\u0444\u0438\u043B\u044C \u0432\u0438\u0437\u0443\u0430\u043B\u044C\u043D\u043E \u043A\u0440\u0430\u0441\u0438\u0432\u044B\u043C.'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          { visible: this.state.show4, onClickBackdrop: this.modalBackdropClicked },
+          _react2.default.createElement(
+            'div',
+            { className: 'modal-header' },
+            _react2.default.createElement(
+              'h3',
+              { className: 'modal-title' },
+              '\u041F\u0440\u043E\u0434\u0432\u0438\u0436\u0435\u043D\u0438\u0435'
+            ),
+            _react2.default.createElement(
+              'button',
+              { type: 'button', className: 'close', onClick: this.modalBackdropClicked },
+              _react2.default.createElement(
+                'span',
+                { 'aria-hidden': 'true' },
+                '\xD7'
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'modal-body' },
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041F\u043B\u0430\u0442\u043D\u044B\u0435 \u0438 \u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0435 \u043C\u0435\u0442\u043E\u0434\u044B \u043F\u0440\u043E\u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F.'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041A\u0430\u043A \u0440\u0430\u0431\u043E\u0442\u0430\u0442\u044C \u0441 \u0413\u0438\u0432\u0430\u043C\u0438, \u043C\u0430\u0440\u0430\u0444\u043E\u043D\u0430\u043C?'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041A\u0430\u043A \u043F\u0440\u043E\u0432\u043E\u0434\u0438\u0442\u044C \u043A\u043E\u043D\u043A\u0443\u0440\u0441\u044B, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u043F\u0440\u0438\u043D\u043E\u0441\u044F\u0442 \u0430\u0443\u0434\u0442\u043E\u0440\u0438\u044E?'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u0413\u0434\u0435 \u0440\u0430\u0437\u043C\u0435\u0449\u0430\u0442\u044C \u0440\u0435\u043A\u043B\u0430\u043C\u0443?'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u0413\u0434\u0435 \u0443\u0437\u043D\u0430\u0442\u044C \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C \u0440\u0435\u043A\u043B\u0430\u043C\u044B \u0443 \u0432\u0441\u0435\u0445 \u0431\u043B\u043E\u0433\u0435\u0440\u043E\u0432?'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041A\u0430\u043A\u0438\u0435 \u0432\u0438\u0434\u044B \u0440\u0435\u043A\u043B\u0430\u043C\u044B \u043D\u0443\u0436\u043D\u044B \u043B\u0438\u0447\u043D\u043E\u043C\u0443 \u0431\u043B\u043E\u0433\u0443?'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041A\u0430\u043A\u0438\u0435 \u0432\u0438\u0434\u044B \u0440\u0435\u043A\u043B\u0430\u043C\u044B "\u0437\u0430\u0439\u0434\u0443\u0442", \u0435\u0441\u043B\u0438 \u0443 \u0412\u0430\u0441 \u043C\u0430\u0433\u0430\u0437\u0438\u043D \u0438\u043B\u0438 \u0412\u044B \u0447\u0430\u0441\u0442\u043D\u044B\u0439 \u043C\u0430\u0441\u0442\u0435\u0440?'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          _Modal2.default,
+          { visible: this.state.show5, onClickBackdrop: this.modalBackdropClicked },
+          _react2.default.createElement(
+            'div',
+            { className: 'modal-header' },
+            _react2.default.createElement(
+              'h3',
+              { className: 'modal-title' },
+              'Stories'
+            ),
+            _react2.default.createElement(
+              'button',
+              { type: 'button', className: 'close', onClick: this.modalBackdropClicked },
+              _react2.default.createElement(
+                'span',
+                { 'aria-hidden': 'true' },
+                '\xD7'
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'modal-body' },
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041A\u0430\u043A \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C \u0432\u043E\u0432\u043B\u0435\u0447\u0435\u043D\u043D\u043E\u0441\u0442\u044C?'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041F\u0440\u0438\u043D\u0446\u0438\u043F\u044B \u0440\u0430\u0431\u043E\u0442\u044B. \u041E\u0442 \u0447\u0435\u0433\u043E \u0443\u0432\u0435\u043B\u0438\u0447\u0430\u0442\u0441\u044F \u043E\u0445\u0432\u0430\u0442\u044B?'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u041A\u0430\u043A \u0440\u0435\u0430\u043D\u0438\u043C\u0438\u0440\u043E\u0432\u0430\u0442\u044C "\u0445\u0440\u043E\u043C\u0443\u044E \u043B\u043E\u0448\u0430\u0434\u044C"? (\u043D\u0438\u0437\u043A\u0438\u0435 \u043E\u0445\u0432\u0430\u0442\u044B)'
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'modal-row' },
+              _react2.default.createElement('img', { className: 'modal-flag', src: 'images/check.svg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                '\u0418\u0434\u0435\u0438 \u0434\u043B\u044F \u0441\u0442\u043E\u0440\u0438\u0441.'
+              )
             )
           )
         ),

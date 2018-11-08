@@ -11,7 +11,11 @@ export default class Section3 extends React.Component {
     this.modalBackdropClicked = this.modalBackdropClicked.bind(this);
 
     this.state = {
-      show: false
+      show1: false,
+      show2: false,
+      show3: false,
+      show4: false,
+      show5: false
     };
   }
 
@@ -20,11 +24,34 @@ export default class Section3 extends React.Component {
   }
 
   handleClose() {
-    this.setState({ show: false });
+    this.setState({
+      show1: false,
+      show2: false,
+      show3: false,
+      show4: false,
+      show5: false
+   });
   }
 
-  handleShow() {
-    this.setState({ show: true });
+  handleShow(stateNum) {
+    let showkey = `show${stateNum}`;
+    switch (showkey) {
+      case 'show1':
+        this.setState({ show1: true });
+        break;
+      case 'show2':
+        this.setState({ show2: true });
+        break;
+      case 'show3':
+        this.setState({ show3: true });
+        break;
+      case 'show4':
+        this.setState({ show4: true });
+        break;
+      case 'show5':
+        this.setState({ show5: true });
+        break;
+    }
   }
 
   componentDidMount() {
@@ -50,8 +77,8 @@ export default class Section3 extends React.Component {
 
     selectors.map((selector) => {
       $( selector ).on('click', (event) => {
-        this.handleShow();
-        // console.log(getSelectorClass(event));
+        let stateNum = getSelectorClass(event).replace(/[^\d]/g,'');
+        this.handleShow(stateNum);
       });
     });
 
@@ -61,12 +88,154 @@ export default class Section3 extends React.Component {
   render() {
     return(
       <React.Fragment>
-        <Modal visible={this.state.show} onClickBackdrop={this.modalBackdropClicked}>
+        <Modal visible={this.state.show1} onClickBackdrop={this.modalBackdropClicked}>
           <div className="modal-header">
-            <h3 className="modal-title">Red Alert!</h3>
+            <h3 className="modal-title">Теория про Instagram</h3>
+            <button type="button" className="close" onClick={this.modalBackdropClicked}>
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
           <div className="modal-body">
-            <p>Enemy vessel approaching!</p>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Актуальные лимиты и ограничения на площадке.</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Какие инструменты есть в Instagram?</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Какие из них хороши для личного блога, какие для магазина?</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Что такое целевая аудитория и как ее определить?</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Как оформить страничку в Instagram правильно?</p>
+            </div>
+          </div>
+        </Modal>
+        <Modal visible={this.state.show2} onClickBackdrop={this.modalBackdropClicked}>
+          <div className="modal-header">
+            <h3 className="modal-title">Контент</h3>
+            <button type="button" className="close" onClick={this.modalBackdropClicked}>
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div className="modal-body">
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Как писать, чтобы Вы запомнились читателю?</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>О чем писать?</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Правила создания контент-плана (при продвижении с помощью конкурсных механик и рекламы)</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>О чем писать магазину?</p>
+            </div>
+          </div>
+        </Modal>
+        <Modal visible={this.state.show3} onClickBackdrop={this.modalBackdropClicked}>
+          <div className="modal-header">
+            <h3 className="modal-title">Фото-контент</h3>
+            <button type="button" className="close" onClick={this.modalBackdropClicked}>
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div className="modal-body">
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Правила планирования</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Приемы обработки</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Вводный курс по Photoshop</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Урок-вдохновение и разбор профилей на примерах</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Как магазину или салону сделать профиль визуально красивым.</p>
+            </div>
+          </div>
+        </Modal>
+        <Modal visible={this.state.show4} onClickBackdrop={this.modalBackdropClicked}>
+          <div className="modal-header">
+            <h3 className="modal-title">Продвижение</h3>
+            <button type="button" className="close" onClick={this.modalBackdropClicked}>
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div className="modal-body">
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Платные и Бесплатные методы продвижения.</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Как работать с Гивами, марафонам?</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Как проводить конкурсы, которые приносят аудторию?</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Где размещать рекламу?</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Где узнать стоимость рекламы у всех блогеров?</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Какие виды рекламы нужны личному блогу?</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Какие виды рекламы "зайдут", если у Вас магазин или Вы частный мастер?</p>
+            </div>
+          </div>
+        </Modal>
+        <Modal visible={this.state.show5} onClickBackdrop={this.modalBackdropClicked}>
+          <div className="modal-header">
+            <h3 className="modal-title">Stories</h3>
+            <button type="button" className="close" onClick={this.modalBackdropClicked}>
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div className="modal-body">
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Как увеличить вовлеченность?</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Принципы работы. От чего увеличатся охваты?</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Как реанимировать "хромую лошадь"? (низкие охваты)</p>
+            </div>
+            <div className="modal-row">
+              <img className="modal-flag" src="images/check.svg"/>
+              <p>Идеи для сторис.</p>
+            </div>
           </div>
         </Modal>
         <div className="container">

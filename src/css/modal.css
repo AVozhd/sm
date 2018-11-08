@@ -1,7 +1,25 @@
 .modal-header {
-  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  padding-top: 25px;
 }
 
 .modal-title {
   font-weight: bold;
+  margin: 0;
+}
+
+.modal-row {
+  display: grid;
+  grid-template-columns: 20px auto;
+}
+
+.modal-row p {
+  padding-left: 10px;
+}
+
+.modal-flag {
+  height: 20px;
+  width: 20px;
 }
