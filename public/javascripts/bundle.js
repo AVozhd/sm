@@ -4188,7 +4188,7 @@ exports.i(__webpack_require__(/*! -!../../node_modules/css-loader!./fonts.css */
 exports.i(__webpack_require__(/*! -!../../node_modules/css-loader!./svg.css */ "./node_modules/css-loader/index.js!./src/css/svg.css"), "");
 
 // module
-exports.push([module.i, ".cover-image {\n  background: url(" + escape(__webpack_require__(/*! ../../public/images/cover1.jpg */ "./public/images/cover1.jpg")) + ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color:rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 50px;\n  margin-bottom: 70px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width:100%;\n  max-height:100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin-bottom: 50px;\n  display: flex;\n  align-items: center;\n  border: none;\n}\n", ""]);
+exports.push([module.i, ".cover-image {\n  background: url(" + escape(__webpack_require__(/*! ../../public/images/cover1.jpg */ "./public/images/cover1.jpg")) + ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color:rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.doplogo {\n  position:fixed;\n  right: 0;\n  top: 0;\n  height: 100px;\n  width: 100px;\n  padding-right: 10px;\n  padding-top: 10px;\n  z-index: 1000;\n}\n\n.hidden {\n  display: none;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 50px;\n  margin-bottom: 70px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width:100%;\n  max-height:100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin-bottom: 50px;\n  display: flex;\n  align-items: center;\n  border: none;\n}\n", ""]);
 
 // exports
 
@@ -42868,6 +42868,10 @@ var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-type
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
+var _Doplogo = __webpack_require__(/*! ./presentational/Doplogo */ "./src/js/components/presentational/Doplogo.js");
+
+var _Doplogo2 = _interopRequireDefault(_Doplogo);
+
 var _Section = __webpack_require__(/*! ./container/Section1 */ "./src/js/components/container/Section1.js");
 
 var _Section2 = _interopRequireDefault(_Section);
@@ -42909,6 +42913,7 @@ var MainComponent = function (_React$Component) {
       return _react2.default.createElement(
         _react2.default.Fragment,
         null,
+        this.props.windowDimensions.width > 1100 ? _react2.default.createElement(_Doplogo2.default, { windowDimensions: this.props.windowDimensions }) : null,
         _react2.default.createElement(_Section2.default, null),
         _react2.default.createElement(_Section4.default, null),
         _react2.default.createElement(_Section6.default, null)
@@ -43576,6 +43581,88 @@ exports.default = (0, _reactRedux.connect)(function (state) {
 
 /***/ }),
 
+/***/ "./src/js/components/presentational/Doplogo.js":
+/*!*****************************************************!*\
+  !*** ./src/js/components/presentational/Doplogo.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _jquery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+
+var _jquery2 = _interopRequireDefault(_jquery);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Doplogo = function (_React$Component) {
+  _inherits(Doplogo, _React$Component);
+
+  function Doplogo() {
+    _classCallCheck(this, Doplogo);
+
+    var _this = _possibleConstructorReturn(this, (Doplogo.__proto__ || Object.getPrototypeOf(Doplogo)).call(this));
+
+    _this.state = {
+      hide: 'hidden'
+    };
+    return _this;
+  }
+
+  _createClass(Doplogo, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      (0, _jquery2.default)(window).on('scroll', function () {
+        if (afterSection1(_this2.props.windowDimensions.height)) {
+          _this2.setState({
+            hide: ''
+          });
+        } else {
+          _this2.setState({
+            hide: 'hidden'
+          });
+        }
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement('img', { className: 'doplogo ' + this.state.hide, src: 'images/logoblue.png' });
+    }
+  }]);
+
+  return Doplogo;
+}(_react2.default.Component);
+
+exports.default = Doplogo;
+
+
+var afterSection1 = function afterSection1(viewportHeight) {
+  return (0, _jquery2.default)(window).scrollTop() > viewportHeight;
+};
+
+/***/ }),
+
 /***/ "./src/js/components/presentational/Logo.js":
 /*!**************************************************!*\
   !*** ./src/js/components/presentational/Logo.js ***!
@@ -43597,7 +43684,7 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Logo = function Logo() {
-  return _react2.default.createElement("img", { className: "logo", src: "images/logowhite.png" });
+  return _react2.default.createElement('img', { className: 'logo', src: 'images/logowhite.png' });
 };
 
 exports.default = Logo;
@@ -43617,7 +43704,7 @@ exports.default = Logo;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.getCardDim = exports.setWindowDimensions = undefined;
+exports.changeLogoPath = exports.getCardDim = exports.setWindowDimensions = undefined;
 
 var _actionsTypes = __webpack_require__(/*! ./actionsTypes */ "./src/js/store/actionsTypes.js");
 
@@ -43639,6 +43726,13 @@ var getCardDim = exports.getCardDim = function getCardDim(cardDimensions) {
   };
 };
 
+var changeLogoPath = exports.changeLogoPath = function changeLogoPath(newPath) {
+  return {
+    type: types.ACTION_CHANGE_LOGO_PATH,
+    payload: newPath
+  };
+};
+
 /***/ }),
 
 /***/ "./src/js/store/actionsTypes.js":
@@ -43656,6 +43750,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var ACTION_RESIZE_WINDOW = exports.ACTION_RESIZE_WINDOW = 'ACTION_RESIZE_WINDOW';
 var ACTION_GET_CARD_DIM = exports.ACTION_GET_CARD_DIM = 'ACTION_GET_CARD_DIM';
+var ACTION_CHANGE_LOGO_PATH = exports.ACTION_CHANGE_LOGO_PATH = 'ACTION_CHANGE_LOGO_PATH';
 
 /***/ }),
 
@@ -43684,6 +43779,9 @@ var initialAppState = {
       height: [],
       width: []
     }
+  },
+  logo: {
+    src: 'images/logowhite.png'
   }
 };
 
@@ -43735,6 +43833,12 @@ var rootReducer = exports.rootReducer = function rootReducer() {
       return _extends({}, state, {
         cards: _extends({}, state.cards, {
           dimensions: action.payload
+        })
+      });
+    case types.ACTION_CHANGE_LOGO_PATH:
+      return _extends({}, state, {
+        logo: _extends({}, state.logo, {
+          src: action.payload
         })
       });
   }

@@ -67,6 +67,21 @@
   margin-bottom: 20px;
 }
 
+.doplogo {
+  position:fixed;
+  right: 0;
+  top: 0;
+  height: 100px;
+  width: 100px;
+  padding-right: 10px;
+  padding-top: 10px;
+  z-index: 1000;
+}
+
+.hidden {
+  display: none;
+}
+
 .btn-main {
   display: block;
   margin-left: auto;

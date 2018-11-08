@@ -10,6 +10,9 @@ const initialAppState = {
       height: [],
       width: [],
     }
+  },
+  logo: {
+    src: 'images/logowhite.png'
   }
 };
 

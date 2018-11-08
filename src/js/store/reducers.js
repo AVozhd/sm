@@ -19,6 +19,14 @@ export const rootReducer = (state = initialAppState, action) => {
           dimensions: action.payload
         }
       };
+    case types.ACTION_CHANGE_LOGO_PATH:
+      return {
+        ...state,
+        logo: {
+          ...state.logo,
+          src: action.payload
+        }
+      };
   }
   return state;
 };

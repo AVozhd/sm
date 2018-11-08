@@ -13,3 +13,10 @@ export const getCardDim = (cardDimensions) => {
     payload: cardDimensions
   };
 };
+
+export const changeLogoPath = (newPath) => {
+  return {
+    type: types.ACTION_CHANGE_LOGO_PATH,
+    payload: newPath
+  };
+};

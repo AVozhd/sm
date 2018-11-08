@@ -4,6 +4,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { setWindowDimensions } from '../store/actions';
 import PropTypes from 'prop-types';
+import Doplogo from './presentational/Doplogo';
 import Section1 from './container/Section1';
 import Section2 from './container/Section2';
 import Section3 from './container/Section3';
@@ -20,6 +21,7 @@ class MainComponent extends React.Component {
   render() {
     return(
       <React.Fragment>
+        {this.props.windowDimensions.width > 1100 ? <Doplogo windowDimensions={this.props.windowDimensions} /> : null}
         <Section1 />
         <Section2 />
         <Section3 />
