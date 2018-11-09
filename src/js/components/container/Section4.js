@@ -105,9 +105,8 @@ export default class Section4 extends React.Component {
   }
 }
 
-
-
-window.onload = function() {
+try {
+  window.onload = function() {
   const canvas = Snap.select("#svg-animation"),
     allItems = canvas.select("#all-items"),
 
@@ -251,7 +250,7 @@ window.onload = function() {
 
   function closeCircle() {
     circleBg.animate({
-      r: 50,
+      r: 177,
       fill: '#4ad3ac'
     }, 800, mina.bounce);
 
@@ -260,7 +259,7 @@ window.onload = function() {
     tick.attr({
       stroke: "#fff",
       fill: "rgba(0,0,0,0)",
-      strokeWidth: 4
+      strokeWidth: 10
     });
   }
 
@@ -273,3 +272,8 @@ window.onload = function() {
     canvas.unclick();
   });
 };
+} catch(e) {
+
+}
+
+
