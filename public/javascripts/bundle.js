@@ -52609,6 +52609,10 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _actions = __webpack_require__(/*! ../../store/actions */ "./src/js/store/actions.js");
 
+var _jquery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+
+var _jquery2 = _interopRequireDefault(_jquery);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
@@ -52622,49 +52626,56 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Card = function (_React$Component) {
   _inherits(Card, _React$Component);
 
-  function Card() {
+  function Card(props) {
     _classCallCheck(this, Card);
 
-    var _this = _possibleConstructorReturn(this, (Card.__proto__ || Object.getPrototypeOf(Card)).call(this));
+    var _this = _possibleConstructorReturn(this, (Card.__proto__ || Object.getPrototypeOf(Card)).call(this, props));
 
     _this.state = {
-      height: 0,
-      width: 0
+      dimensions: {
+        height: 0,
+        width: 0
+      }
     };
+    _this.onImgLoad = _this.onImgLoad.bind(_this);
     return _this;
   }
 
   _createClass(Card, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      var _this2 = this;
+    key: 'onImgLoad',
+    value: function onImgLoad(_ref) {
+      var img = _ref.target;
 
-      setTimeout(function () {
-        _this2.ref = _this2.card;
-        _this2.props.cardsDimensions.height.push(_this2.ref.clientHeight);
-        _this2.props.cardsDimensions.width.push(_this2.ref.clientWidth);
-        var min = Math.min.apply(Math, _toConsumableArray(_this2.props.cardsDimensions.height));
-        var max = Math.max.apply(Math, _toConsumableArray(_this2.props.cardsDimensions.width));
-        _this2.setState({
+      this.props.cardsDimensions.height.push((0, _jquery2.default)(img).height());
+      this.props.cardsDimensions.width.push((0, _jquery2.default)(img).width());
+      var min = Math.min.apply(Math, _toConsumableArray(this.props.cardsDimensions.height));
+      var max = Math.max.apply(Math, _toConsumableArray(this.props.cardsDimensions.width));
+      this.setState({
+        dimensions: {
           height: min,
           width: max
-        });
-      }, 1);
+        }
+      });
     }
   }, {
     key: 'render',
     value: function render() {
-      var _this3 = this;
+      var _props = this.props,
+          imgpath = _props.imgpath,
+          cardKlass = _props.cardKlass,
+          containerKlass = _props.containerKlass;
+      var _state$dimensions = this.state.dimensions,
+          width = _state$dimensions.width,
+          height = _state$dimensions.height;
+
 
       return _react2.default.createElement(
         'div',
-        { className: this.props.containerKlass },
-        _react2.default.createElement('img', { ref: function ref(element) {
-            return _this3.card = element;
-          },
-          className: 'section2-card-img ' + this.props.cardKlass,
-          style: this.state.height === 0 ? null : { height: this.state.height, width: this.state.width },
-          src: this.props.imgpath }),
+        { className: containerKlass },
+        _react2.default.createElement('img', { onLoad: this.onImgLoad,
+          className: 'section2-card-img ' + cardKlass,
+          style: this.state.dimensions.height === 0 ? null : { height: this.state.dimensions.height, width: this.state.dimensions.width },
+          src: imgpath }),
         _react2.default.createElement(
           'h3',
           { className: 'section2-card-title' },
