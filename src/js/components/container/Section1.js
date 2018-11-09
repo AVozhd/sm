@@ -27,7 +27,7 @@ class Section1 extends React.Component {
                 <h3 className="topsection-h3">
                   получи востребованную интернет-профессию по цене 5 чашек кофе
                 </h3>
-                <Button />
+                <Button btntext="Записаться" btnclass="btn-main" />
               </div>
             </div>
           </div>

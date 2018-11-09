@@ -31,17 +31,13 @@
 .cls-23{fill:#00e1ff;}
 .cls-24{fill:url(#radial-gradient-16);}
 
-.cls-3:hover {
-  fill: #007bff;
-}
-
 text {
   text-anchor: middle;
 }
 
 .text-main-circle {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .text-circle1,
@@ -60,6 +56,7 @@ text {
   fill:transparent;
 }
 
+.mainbtn-selector,
 .btn1-selector,
 .btn2-selector,
 .btn3-selector,
@@ -70,4 +67,8 @@ text {
 
 .btn-hover {
   fill: #20c997;
+}
+
+.mainbtn-hover {
+  fill: #007bff;
 }

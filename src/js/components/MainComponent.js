@@ -8,6 +8,7 @@ import Doplogo from './presentational/Doplogo';
 import Section1 from './container/Section1';
 import Section2 from './container/Section2';
 import Section3 from './container/Section3';
+import Section4 from './container/Section4';
 
 class MainComponent extends React.Component {
   constructor(props) {
@@ -21,10 +22,11 @@ class MainComponent extends React.Component {
   render() {
     return(
       <React.Fragment>
-        {this.props.windowDimensions.width > 1100 ? <Doplogo windowDimensions={this.props.windowDimensions} /> : null}
+        {this.props.windowDimensions.width > 1350 ? <Doplogo windowDimensions={this.props.windowDimensions} /> : null}
         <Section1 />
         <Section2 />
-        <Section3 />
+        <Section3 containerWidth={this.props.windowDimensions.width} />
+        <Section4 />
       </React.Fragment>
     )
   }

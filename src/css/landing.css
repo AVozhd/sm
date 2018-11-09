@@ -2,6 +2,11 @@
 @import 'fonts.css';
 @import 'svg.css';
 @import 'modal.css';
+@import 'section4svg.css';
+
+body.modal-open {
+  overflow-y: scroll;
+}
 
 .cover-image {
   background: url(../../public/images/cover1.jpg) no-repeat center center fixed;
@@ -94,8 +99,8 @@
 }
 
 .section2-title {
-  margin-top: 50px;
-  margin-bottom: 70px;
+  margin-top: 70px;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   font-weight: bold;
@@ -117,3 +122,38 @@
   align-items: center;
   border: none;
 }
+
+.section4-container {
+  background-color: #20c997;
+  /*background-color: #00e1ff;*/
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section4-text p {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.section4-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: #00e1ff;
+  /*background-color: #20c997;*/
+  border: none;
+  padding: 10px 0;
+}
+
+.section4-img {
+  width: inherit;
+}
+
+.s4svg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

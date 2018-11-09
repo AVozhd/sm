@@ -15,7 +15,9 @@ export default class Section3 extends React.Component {
       show2: false,
       show3: false,
       show4: false,
-      show5: false
+      show5: false,
+      maintext1: 'Что будет',
+      maintext2: 'на курсе?',
     };
   }
 
@@ -56,6 +58,7 @@ export default class Section3 extends React.Component {
 
   componentDidMount() {
     let selectors = [
+      ".mainbtn-selector",
       ".btn1-selector",
       ".btn2-selector",
       ".btn3-selector",
@@ -67,19 +70,37 @@ export default class Section3 extends React.Component {
       $( selector ).hover(
         function(event) {
           let select = `.${getSelector(event)}`;
-          $( select ).addClass("btn-hover");
+          if(select === '.mainbtn') {
+            $( select ).addClass("mainbtn-hover");
+          } else {
+            $( select ).addClass("btn-hover");
+          }
         }, function(event) {
           let select = `.${getSelector(event)}`;
-          $( select ).removeClass("btn-hover");
+          if(select === '.mainbtn') {
+            $( select ).removeClass("mainbtn-hover");
+          } else {
+            $( select ).removeClass("btn-hover");
+          }
+
         }
       );
     });
 
     selectors.map((selector) => {
-      $( selector ).on('click', (event) => {
-        let stateNum = getSelectorClass(event).replace(/[^\d]/g,'');
-        this.handleShow(stateNum);
-      });
+      if(selector === '.mainbtn-selector') {
+        $( selector ).on('click', (event) => {
+          this.setState({
+            maintext1: 'Много всего',
+            maintext2: 'интересного!'
+          });
+        });
+      } else {
+        $( selector ).on('click', (event) => {
+          let stateNum = getSelectorClass(event).replace(/[^\d]/g,'');
+          this.handleShow(stateNum);
+        });
+      }
     });
 
 
@@ -87,7 +108,7 @@ export default class Section3 extends React.Component {
 
   render() {
     return(
-      <React.Fragment>
+      <section style={{ marginBottom: -this.props.containerWidth/8 }} >
         <Modal visible={this.state.show1} onClickBackdrop={this.modalBackdropClicked}>
           <div className="modal-header">
             <h3 className="modal-title">Теория про Instagram</h3>
@@ -289,8 +310,12 @@ export default class Section3 extends React.Component {
                 <path className="main-anim" d="M550.76,397.87a152.15,152.15,0,0,0-38.34-101.19A152.71,152.71,0,0,0,287.59,503.32,152.71,152.71,0,0,0,550.76,397.87Z">
                   <animate attributeName="stroke-dashoffset" dur="6s" to="-820" repeatCount="indefinite"/>
                 </path>
-                <path className="cls-3" d="M550.76,397.87a152.15,152.15,0,0,0-38.34-101.19A152.71,152.71,0,0,0,287.59,503.32,152.71,152.71,0,0,0,550.76,397.87Z"/>
-                <path className="cls-5" d="M515.12,398.38A116.61,116.61,0,1,0,398.51,515,116.13,116.13,0,0,0,515.12,398.38Z"/>
+
+                <g className="mainbtn-selector">
+                  <path className="cls-3 mainbtn" d="M550.76,397.87a152.15,152.15,0,0,0-38.34-101.19A152.71,152.71,0,0,0,287.59,503.32,152.71,152.71,0,0,0,550.76,397.87Z"/>
+                  <path className="cls-5" d="M515.12,398.38A116.61,116.61,0,1,0,398.51,515,116.13,116.13,0,0,0,515.12,398.38Z"/>
+                </g>
+
                 <path className="cls-6" d="M400,217.54A182.46,182.46,0,1,1,271,271a181.27,181.27,0,0,1,129-53.44m0-8c-105.19,0-190.46,85.27-190.46,190.46S294.81,590.46,400,590.46,590.46,505.19,590.46,400,505.19,209.54,400,209.54Z"/>
                 <path className="cls-8" d="M398.51,209.55v7A182.68,182.68,0,0,1,582.7,400.73h7A189.65,189.65,0,0,0,398.51,209.55Z"/>
                 <path className="cls-9" d="M608.94,407.16h0l-12.57-12.54h0a13,13,0,1,0-18.08,18.56L590,424.86h0a13,13,0,1,0,19-17.7Z"/>
@@ -336,11 +361,11 @@ export default class Section3 extends React.Component {
                 <path className="cls-18 btn5-selector" d="M756.57,399.22a56.34,56.34,0,1,0-56.34,56.34A56.09,56.09,0,0,0,756.57,399.22Z"/>
 
               </g>
-              <text className="text-main-circle" x="400" y="380">
-                Что будет
+              <text className="text-main-circle mainbtn-selector" x="400" y="380">
+                {this.state.maintext1}
               </text>
-              <text className="text-main-circle" x="400" y="420">
-                на курсе?
+              <text className="text-main-circle mainbtn-selector" x="400" y="420">
+                {this.state.maintext2}
               </text>
               <text className="text-circle1 btn1-selector" x="100" y="390">
                 Теория
@@ -363,7 +388,7 @@ export default class Section3 extends React.Component {
             </g>
           </svg>
         </div>
-      </React.Fragment>
+      </section>
     )
   }
 }

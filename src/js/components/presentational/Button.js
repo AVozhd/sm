@@ -1,8 +1,10 @@
 import React from 'react';
 
-const Button = () => {
+const Button = ({ btntext, btnclass }) => {
   return(
-    <a href="#" role="button" className="btn btn-primary btn-lg btn-block btn-main">Записаться</a>
+    <a href="#" role="button" className={`btn btn-primary btn-lg btn-block ${btnclass}`}>
+      {btntext}
+    </a>
   )
 };
 

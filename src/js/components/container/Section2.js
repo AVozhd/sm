@@ -13,7 +13,7 @@ class Section2 extends React.Component {
 
   render() {
     return(
-      <React.Fragment>
+      <section>
         <h1 className="section2-title">
           Курс будет полезен
         </h1>
@@ -36,7 +36,7 @@ class Section2 extends React.Component {
                   tekst="Курс поможет Вам самостоятельно развивать Вашу страничку. Если Вам важно понять, что 'заходит' в Instagram, а что нет." />
           </div>
         </div>
-      </React.Fragment>
+      </section>
     )
   }
 }
