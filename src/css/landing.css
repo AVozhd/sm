@@ -8,6 +8,10 @@ body.modal-open {
   overflow-y: scroll;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .cover-image {
   background: url(../../public/images/cover1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;

@@ -4252,7 +4252,7 @@ exports.i(__webpack_require__(/*! -!../../node_modules/css-loader!./modal.css */
 exports.i(__webpack_require__(/*! -!../../node_modules/css-loader!./section4svg.css */ "./node_modules/css-loader/index.js!./src/css/section4svg.css"), "");
 
 // module
-exports.push([module.i, "body.modal-open {\n  overflow-y: scroll;\n}\n\n.cover-image {\n  background: url(" + escape(__webpack_require__(/*! ../../public/images/cover1.jpg */ "./public/images/cover1.jpg")) + ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color:rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.doplogo {\n  position:fixed;\n  right: 0;\n  top: 0;\n  height: 100px;\n  width: 100px;\n  padding-right: 10px;\n  padding-top: 10px;\n  z-index: 1000;\n}\n\n.hidden {\n  display: none;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 70px;\n  margin-bottom: 50px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width:100%;\n  max-height:100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin-bottom: 50px;\n  display: flex;\n  align-items: center;\n  border: none;\n}\n\n.section4-container {\n  background-color: #20c997;\n  /*background-color: #00e1ff;*/\n  padding-top: 50px;\n  padding-bottom: 50px;\n}\n\n.section4-text p {\n  text-align: center;\n  color: white;\n  margin-bottom: 20px;\n}\n\n.section4-btn {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 30px;\n  background-color: #00e1ff;\n  /*background-color: #20c997;*/\n  border: none;\n  padding: 10px 0;\n}\n\n.section4-img {\n  width: inherit;\n}\n\n.s4svg-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n", ""]);
+exports.push([module.i, "body.modal-open {\n  overflow-y: scroll;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.cover-image {\n  background: url(" + escape(__webpack_require__(/*! ../../public/images/cover1.jpg */ "./public/images/cover1.jpg")) + ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color:rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.doplogo {\n  position:fixed;\n  right: 0;\n  top: 0;\n  height: 100px;\n  width: 100px;\n  padding-right: 10px;\n  padding-top: 10px;\n  z-index: 1000;\n}\n\n.hidden {\n  display: none;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 70px;\n  margin-bottom: 50px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width:100%;\n  max-height:100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin-bottom: 50px;\n  display: flex;\n  align-items: center;\n  border: none;\n}\n\n.section4-container {\n  background-color: #20c997;\n  /*background-color: #00e1ff;*/\n  padding-top: 50px;\n  padding-bottom: 50px;\n}\n\n.section4-text p {\n  text-align: center;\n  color: white;\n  margin-bottom: 20px;\n}\n\n.section4-btn {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 30px;\n  background-color: #00e1ff;\n  /*background-color: #20c997;*/\n  border: none;\n  padding: 10px 0;\n}\n\n.section4-img {\n  width: inherit;\n}\n\n.s4svg-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n", ""]);
 
 // exports
 
@@ -51169,6 +51169,14 @@ var _Section7 = __webpack_require__(/*! ./container/Section4 */ "./src/js/compon
 
 var _Section8 = _interopRequireDefault(_Section7);
 
+var _Section9 = __webpack_require__(/*! ./container/Section5 */ "./src/js/components/container/Section5.js");
+
+var _Section10 = _interopRequireDefault(_Section9);
+
+var _Section11 = __webpack_require__(/*! ./container/Section6 */ "./src/js/components/container/Section6.js");
+
+var _Section12 = _interopRequireDefault(_Section11);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -51202,7 +51210,9 @@ var MainComponent = function (_React$Component) {
         _react2.default.createElement(_Section2.default, null),
         _react2.default.createElement(_Section4.default, null),
         _react2.default.createElement(_Section6.default, { containerWidth: this.props.windowDimensions.width }),
-        _react2.default.createElement(_Section8.default, null)
+        _react2.default.createElement(_Section8.default, null),
+        _react2.default.createElement(_Section10.default, null),
+        _react2.default.createElement(_Section12.default, null)
       );
     }
   }]);
@@ -51428,15 +51438,21 @@ var Section2 = function (_React$Component) {
               imgpath: 'images/card1.jpg',
               cardKlass: 'card1',
               title: '\u041D\u043E\u0432\u0438\u0447\u043A\u0430\u043C',
+              titleKlass: 'text-center',
+              tekstKlass: 'text-center',
               tekst: '\u041A\u0443\u0440\u0441 \u043F\u043E\u043C\u043E\u0436\u0435\u0442 \u0412\u0430\u043C \u0440\u0430\u0437\u043E\u0431\u0440\u0430\u0442\u044C\u0441\u044F: \u043A\u0430\u043A \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442 Instagram; \u043A\u0430\u043A \u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u043D\u0430\u0447\u0430\u0442\u044C \u0437\u0430\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0442\u044C \u043D\u0430 \u0432\u0435\u0434\u0435\u043D\u0438\u0438 \u0434\u0440\u0443\u0433\u0438\u0445 \u0441\u0442\u0440\u0430\u043D\u0438\u0447\u0435\u043A.' }),
             _react2.default.createElement(_Card2.default, { containerKlass: 'card col-lg-4 col-md-6 col-12',
               imgpath: 'images/card2.jpg',
               cardKlass: 'card2',
+              titleKlass: 'text-center',
+              tekstKlass: 'text-center',
               title: '\u0421\u043F\u0435\u0446\u0438\u0430\u043B\u0438\u0441\u0442\u0430\u043C \u0441 \u0431\u0430\u0437\u043E\u0432\u044B\u043C\u0438 \u0437\u043D\u0430\u043D\u0438\u044F\u043C\u0438',
               tekst: '\u041F\u043E\u043B\u043D\u0430\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0434\u043E\u043C\u0430\u0448\u043D\u0435\u0433\u043E \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u043F\u043E\u043C\u043E\u0436\u0435\u0442 \u0412\u0430\u043C \u043D\u0430\u0439\u0442\u0438 \u0441\u0432\u043E\u0438 \u043E\u0448\u0438\u0431\u043A\u0438. \u0422\u0430\u043A \u0436\u0435 \u043A\u0443\u0440\u0441 \u043F\u043E\u043B\u0435\u0437\u0435\u043D \u0442\u0435\u043C, \u043A\u0442\u043E \u0445\u043E\u0447\u0435\u0442 \u0443\u0437\u043D\u0430\u0442\u044C \u043D\u043E\u0432\u0435\u0439\u0448\u0438\u0435 \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u044B \u0438 \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F \u0432 Instagram.' }),
             _react2.default.createElement(_Card2.default, { containerKlass: ' card col-lg-4 col-md-6 col-12',
               imgpath: 'images/card3.jpg',
               cardKlass: 'card3',
+              titleKlass: 'text-center',
+              tekstKlass: 'text-center',
               title: '\u0412\u043B\u0430\u0434\u0435\u043B\u044C\u0446\u0430\u043C \u0431\u0438\u0437\u043D\u0435\u0441\u0430 \u0438 \u0441\u0430\u043C\u043E\u0437\u0430\u043D\u044F\u0442\u044B\u043C',
               tekst: '\u041A\u0443\u0440\u0441 \u043F\u043E\u043C\u043E\u0436\u0435\u0442 \u0412\u0430\u043C \u0441\u0430\u043C\u043E\u0441\u0442\u043E\u044F\u0442\u0435\u043B\u044C\u043D\u043E \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0442\u044C \u0412\u0430\u0448\u0443 \u0441\u0442\u0440\u0430\u043D\u0438\u0447\u043A\u0443. \u0415\u0441\u043B\u0438 \u0412\u0430\u043C \u0432\u0430\u0436\u043D\u043E \u043F\u043E\u043D\u044F\u0442\u044C, \u0447\u0442\u043E \'\u0437\u0430\u0445\u043E\u0434\u0438\u0442\' \u0432 Instagram, \u0430 \u0447\u0442\u043E \u043D\u0435\u0442.' })
           )
@@ -52544,6 +52560,240 @@ try {
 
 /***/ }),
 
+/***/ "./src/js/components/container/Section5.js":
+/*!*************************************************!*\
+  !*** ./src/js/components/container/Section5.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _redux = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _Card = __webpack_require__(/*! ../presentational/Card */ "./src/js/components/presentational/Card.js");
+
+var _Card2 = _interopRequireDefault(_Card);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Section5 = function (_React$Component) {
+  _inherits(Section5, _React$Component);
+
+  function Section5() {
+    _classCallCheck(this, Section5);
+
+    return _possibleConstructorReturn(this, (Section5.__proto__ || Object.getPrototypeOf(Section5)).apply(this, arguments));
+  }
+
+  _createClass(Section5, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      window.addEventListener('resize', function () {
+        _this2.render();
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'section',
+        null,
+        _react2.default.createElement(
+          'h1',
+          { className: 'section2-title' },
+          '\u0412\u0430\u0440\u0438\u0430\u043D\u0442\u044B \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u044F'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'container' },
+          _react2.default.createElement(
+            'div',
+            { className: 'row' },
+            _react2.default.createElement(_Card2.default, { containerKlass: 'card col-lg-4 col-md-6 col-12',
+              imgpath: 'images/performance.svg',
+              cardKlass: 'card1',
+              title: '\u0421\u0430\u043C \u0441\u0435\u0431\u0435 \u043C\u0430\u0440\u043A\u0435\u0442\u043E\u043B\u043E\u0433',
+              titleKlass: 'text-center',
+              tekstKlass: 'text-center',
+              tekst: '\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u043B\u0435\u043A\u0446\u0438\u044F\u043C \u043D\u0430 30 \u0434\u043D\u0435\u0439. \u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0434\u043E\u043C\u0430\u0448\u043D\u0435\u0433\u043E \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u0431\u0435\u0437 \u0440\u0430\u0437\u0431\u043E\u0440\u0430.' }),
+            _react2.default.createElement(_Card2.default, { containerKlass: 'card col-lg-4 col-md-6 col-12',
+              imgpath: 'images/evaluation.svg',
+              cardKlass: 'card2',
+              title: '\u041C\u0430\u0441\u0442\u0435\u0440-\u043C\u0430\u0440\u043A\u0435\u0442\u043E\u043B\u043E\u0433',
+              titleKlass: 'text-center',
+              tekstKlass: 'text-center',
+              tekst: '\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u043B\u0435\u043A\u0446\u0438\u044F\u043C \u043D\u0430 30 \u0434\u043D\u0435\u0439. \u041F\u043E\u043B\u043D\u0430\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0445 \u0437\u0430\u0434\u0430\u043D\u0438\u0439 \u0441 \u0440\u0430\u0437\u0431\u043E\u0440\u043E\u043C. \u0414\u043E\u0441\u0442\u0443\u043F \u0432 \u0447\u0430\u0442 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438 \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438 \u043A\u0443\u0440\u0441\u0430.' }),
+            _react2.default.createElement(_Card2.default, { containerKlass: ' card col-lg-4 col-md-6 col-12',
+              imgpath: 'images/conference.svg',
+              cardKlass: 'card3',
+              title: '\u041B\u0443\u0447\u0448\u0438\u0439 \u0443\u0447\u0435\u043D\u0438\u043A',
+              titleKlass: 'text-center',
+              tekstKlass: 'text-center',
+              tekst: '\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u043B\u0435\u043A\u0446\u0438\u044F\u043C \u043D\u0430 45 \u0434\u043D\u0435\u0439. \u041F\u043E\u043B\u043D\u0430\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0445 \u0437\u0430\u0434\u0430\u043D\u0438\u0439 \u0441 \u0440\u0430\u0437\u0431\u043E\u0440\u043E\u043C. \u0414\u043E\u0441\u0442\u0443\u043F \u0432 \u0447\u0430\u0442 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438 \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438 \u043A\u0443\u0440\u0441\u0430. \u041E\u043D\u043B\u0430\u0439\u043D \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0430 \u043A\u0443\u0440\u0430\u0442\u043E\u0440\u0430. \u0420\u0430\u0437\u0431\u043E\u0440 \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0438 \u0432\u043E\u043F\u0440\u043E\u0441\u043E\u0432 \u043F\u043E \u043B\u0438\u0447\u043D\u043E\u043C\u0443 \u043F\u0440\u043E\u0444\u0438\u043B\u044E.' })
+          )
+        )
+      );
+    }
+  }]);
+
+  return Section5;
+}(_react2.default.Component);
+
+Section5.propTypes = {
+  windowDimensions: _propTypes2.default.object
+};
+
+exports.default = (0, _reactRedux.connect)(function (state) {
+  return {
+    windowDimensions: state.viewport.dimensions
+  };
+}, function (dispatch) {
+  return {};
+})(Section5);
+
+/***/ }),
+
+/***/ "./src/js/components/container/Section6.js":
+/*!*************************************************!*\
+  !*** ./src/js/components/container/Section6.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _redux = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _Slide = __webpack_require__(/*! ../presentational/Slide */ "./src/js/components/presentational/Slide.js");
+
+var _Slide2 = _interopRequireDefault(_Slide);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Section6 = function (_React$Component) {
+  _inherits(Section6, _React$Component);
+
+  function Section6() {
+    _classCallCheck(this, Section6);
+
+    return _possibleConstructorReturn(this, (Section6.__proto__ || Object.getPrototypeOf(Section6)).apply(this, arguments));
+  }
+
+  _createClass(Section6, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'section',
+        { style: { height: this.props.windowDimensions.height / 2 } },
+        _react2.default.createElement(
+          'div',
+          { className: 'container' },
+          _react2.default.createElement(
+            'div',
+            { id: 'carouselControls', className: 'carousel slide', 'data-ride': 'carousel' },
+            _react2.default.createElement(
+              'div',
+              { className: 'carousel-inner' },
+              _react2.default.createElement(_Slide2.default, { active: 'active',
+                imgpath: 'images/pict1.png',
+                containerHeight: this.props.windowDimensions.height / 2 }),
+              _react2.default.createElement(_Slide2.default, { imgpath: 'images/pict2.png',
+                containerHeight: this.props.windowDimensions.height / 2 }),
+              _react2.default.createElement(_Slide2.default, { imgpath: 'images/pict3.png',
+                containerHeight: this.props.windowDimensions.height / 2 })
+            ),
+            _react2.default.createElement(
+              'a',
+              { className: 'carousel-control-prev', href: '#carouselControls', role: 'button', 'data-slide': 'prev' },
+              _react2.default.createElement('span', { className: 'carousel-control-prev-icon', 'aria-hidden': 'true' }),
+              _react2.default.createElement(
+                'span',
+                { className: 'sr-only' },
+                'Previous'
+              )
+            ),
+            _react2.default.createElement(
+              'a',
+              { className: 'carousel-control-next', href: '#carouselControls', role: 'button', 'data-slide': 'next' },
+              _react2.default.createElement('span', { className: 'carousel-control-next-icon', 'aria-hidden': 'true' }),
+              _react2.default.createElement(
+                'span',
+                { className: 'sr-only' },
+                'Next'
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Section6;
+}(_react2.default.Component);
+
+Section6.propTypes = {
+  windowDimensions: _propTypes2.default.object
+};
+
+exports.default = (0, _reactRedux.connect)(function (state) {
+  return {
+    windowDimensions: state.viewport.dimensions
+  };
+}, function (dispatch) {
+  return {};
+})(Section6);
+
+/***/ }),
+
 /***/ "./src/js/components/presentational/Button.js":
 /*!****************************************************!*\
   !*** ./src/js/components/presentational/Button.js ***!
@@ -52663,7 +52913,9 @@ var Card = function (_React$Component) {
       var _props = this.props,
           imgpath = _props.imgpath,
           cardKlass = _props.cardKlass,
-          containerKlass = _props.containerKlass;
+          containerKlass = _props.containerKlass,
+          titleKlass = _props.titleKlass,
+          tekstKlass = _props.tekstKlass;
       var _state$dimensions = this.state.dimensions,
           width = _state$dimensions.width,
           height = _state$dimensions.height;
@@ -52678,12 +52930,12 @@ var Card = function (_React$Component) {
           src: imgpath }),
         _react2.default.createElement(
           'h3',
-          { className: 'section2-card-title' },
+          { className: 'section2-card-title ' + titleKlass },
           this.props.title
         ),
         _react2.default.createElement(
           'p',
-          null,
+          { className: tekstKlass },
           this.props.tekst
         )
       );
@@ -53005,6 +53257,68 @@ Modal.defaultProps = {
   fade: true
 };
 exports.default = Modal;
+
+/***/ }),
+
+/***/ "./src/js/components/presentational/Slide.js":
+/*!***************************************************!*\
+  !*** ./src/js/components/presentational/Slide.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Slide = function (_React$Component) {
+  _inherits(Slide, _React$Component);
+
+  function Slide() {
+    _classCallCheck(this, Slide);
+
+    return _possibleConstructorReturn(this, (Slide.__proto__ || Object.getPrototypeOf(Slide)).apply(this, arguments));
+  }
+
+  _createClass(Slide, [{
+    key: "render",
+    value: function render() {
+      var _props = this.props,
+          imgpath = _props.imgpath,
+          active = _props.active,
+          containerHeight = _props.containerHeight;
+
+      return _react2.default.createElement(
+        "div",
+        { className: "carousel-item " + (active ? active : null) },
+        _react2.default.createElement("img", { className: "d-block",
+          style: { height: containerHeight / 3, width: containerHeight / 3 },
+          src: imgpath })
+      );
+    }
+  }]);
+
+  return Slide;
+}(_react2.default.Component);
+
+exports.default = Slide;
 
 /***/ }),
 

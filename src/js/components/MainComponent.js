@@ -9,6 +9,8 @@ import Section1 from './container/Section1';
 import Section2 from './container/Section2';
 import Section3 from './container/Section3';
 import Section4 from './container/Section4';
+import Section5 from './container/Section5';
+import Section6 from './container/Section6';
 
 class MainComponent extends React.Component {
   constructor(props) {
@@ -27,6 +29,8 @@ class MainComponent extends React.Component {
         <Section2 />
         <Section3 containerWidth={this.props.windowDimensions.width} />
         <Section4 />
+        <Section5 />
+        <Section6 />
       </React.Fragment>
     )
   }

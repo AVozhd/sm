@@ -23,15 +23,21 @@ class Section2 extends React.Component {
                   imgpath="images/card1.jpg"
                   cardKlass="card1"
                   title="Новичкам"
+                  titleKlass="text-center"
+                  tekstKlass="text-center"
                   tekst="Курс поможет Вам разобраться: как работает Instagram; как Вы можете начать зарабатывать на ведении других страничек." />
             <Card containerKlass="card col-lg-4 col-md-6 col-12"
                   imgpath="images/card2.jpg"
                   cardKlass="card2"
+                  titleKlass="text-center"
+                  tekstKlass="text-center"
                   title="Специалистам с базовыми знаниями"
                   tekst="Полная проверка домашнего задания поможет Вам найти свои ошибки. Так же курс полезен тем, кто хочет узнать новейшие инструменты и изменения в Instagram." />
             <Card containerKlass=" card col-lg-4 col-md-6 col-12"
                   imgpath="images/card3.jpg"
                   cardKlass="card3"
+                  titleKlass="text-center"
+                  tekstKlass="text-center"
                   title="Владельцам бизнеса и самозанятым"
                   tekst="Курс поможет Вам самостоятельно развивать Вашу страничку. Если Вам важно понять, что 'заходит' в Instagram, а что нет." />
           </div>
