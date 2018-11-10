@@ -161,3 +161,8 @@ body.modal-open {
   justify-content: center;
 }
 
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+

@@ -7,12 +7,14 @@ import Slide from '../presentational/Slide';
 class Section6 extends React.Component {
   render() {
     return(
-      <section style={{ height: this.props.windowDimensions.height/2 }}>
+      <section>
         <div className="container">
           <div id="carouselControls" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
               <Slide active="active"
                      imgpath="images/pict1.png"
+                     titleKlass="text-center"
+                     tekstKlass="text-center"
                      containerHeight={this.props.windowDimensions.height/2} />
               <Slide imgpath="images/pict2.png"
                      containerHeight={this.props.windowDimensions.height/2} />

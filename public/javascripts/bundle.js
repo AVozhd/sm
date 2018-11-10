@@ -4252,7 +4252,7 @@ exports.i(__webpack_require__(/*! -!../../node_modules/css-loader!./modal.css */
 exports.i(__webpack_require__(/*! -!../../node_modules/css-loader!./section4svg.css */ "./node_modules/css-loader/index.js!./src/css/section4svg.css"), "");
 
 // module
-exports.push([module.i, "body.modal-open {\n  overflow-y: scroll;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.cover-image {\n  background: url(" + escape(__webpack_require__(/*! ../../public/images/cover1.jpg */ "./public/images/cover1.jpg")) + ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color:rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.doplogo {\n  position:fixed;\n  right: 0;\n  top: 0;\n  height: 100px;\n  width: 100px;\n  padding-right: 10px;\n  padding-top: 10px;\n  z-index: 1000;\n}\n\n.hidden {\n  display: none;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 70px;\n  margin-bottom: 50px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width:100%;\n  max-height:100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin-bottom: 50px;\n  display: flex;\n  align-items: center;\n  border: none;\n}\n\n.section4-container {\n  background-color: #20c997;\n  /*background-color: #00e1ff;*/\n  padding-top: 50px;\n  padding-bottom: 50px;\n}\n\n.section4-text p {\n  text-align: center;\n  color: white;\n  margin-bottom: 20px;\n}\n\n.section4-btn {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 30px;\n  background-color: #00e1ff;\n  /*background-color: #20c997;*/\n  border: none;\n  padding: 10px 0;\n}\n\n.section4-img {\n  width: inherit;\n}\n\n.s4svg-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n", ""]);
+exports.push([module.i, "body.modal-open {\n  overflow-y: scroll;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.cover-image {\n  background: url(" + escape(__webpack_require__(/*! ../../public/images/cover1.jpg */ "./public/images/cover1.jpg")) + ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color:rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.doplogo {\n  position:fixed;\n  right: 0;\n  top: 0;\n  height: 100px;\n  width: 100px;\n  padding-right: 10px;\n  padding-top: 10px;\n  z-index: 1000;\n}\n\n.hidden {\n  display: none;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 70px;\n  margin-bottom: 50px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width:100%;\n  max-height:100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin-bottom: 50px;\n  display: flex;\n  align-items: center;\n  border: none;\n}\n\n.section4-container {\n  background-color: #20c997;\n  /*background-color: #00e1ff;*/\n  padding-top: 50px;\n  padding-bottom: 50px;\n}\n\n.section4-text p {\n  text-align: center;\n  color: white;\n  margin-bottom: 20px;\n}\n\n.section4-btn {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 30px;\n  background-color: #00e1ff;\n  /*background-color: #20c997;*/\n  border: none;\n  padding: 10px 0;\n}\n\n.section4-img {\n  width: inherit;\n}\n\n.s4svg-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.img-center {\n  display: block;\n  margin: 0 auto;\n}\n\n", ""]);
 
 // exports
 
@@ -52733,7 +52733,7 @@ var Section6 = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'section',
-        { style: { height: this.props.windowDimensions.height / 2 } },
+        null,
         _react2.default.createElement(
           'div',
           { className: 'container' },
@@ -52745,6 +52745,8 @@ var Section6 = function (_React$Component) {
               { className: 'carousel-inner' },
               _react2.default.createElement(_Slide2.default, { active: 'active',
                 imgpath: 'images/pict1.png',
+                titleKlass: 'text-center',
+                tekstKlass: 'text-center',
                 containerHeight: this.props.windowDimensions.height / 2 }),
               _react2.default.createElement(_Slide2.default, { imgpath: 'images/pict2.png',
                 containerHeight: this.props.windowDimensions.height / 2 }),
@@ -53274,51 +53276,68 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+var Slide = function Slide(_ref) {
+  var imgpath = _ref.imgpath,
+      active = _ref.active,
+      containerHeight = _ref.containerHeight,
+      tekstKlass = _ref.tekstKlass,
+      titleKlass = _ref.titleKlass,
+      title = _ref.title,
+      tekst = _ref.tekst;
 
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Slide = function (_React$Component) {
-  _inherits(Slide, _React$Component);
-
-  function Slide() {
-    _classCallCheck(this, Slide);
-
-    return _possibleConstructorReturn(this, (Slide.__proto__ || Object.getPrototypeOf(Slide)).apply(this, arguments));
-  }
-
-  _createClass(Slide, [{
-    key: "render",
-    value: function render() {
-      var _props = this.props,
-          imgpath = _props.imgpath,
-          active = _props.active,
-          containerHeight = _props.containerHeight;
-
-      return _react2.default.createElement(
-        "div",
-        { className: "carousel-item " + (active ? active : null) },
-        _react2.default.createElement("img", { className: "d-block",
-          style: { height: containerHeight / 3, width: containerHeight / 3 },
-          src: imgpath })
-      );
-    }
-  }]);
-
-  return Slide;
-}(_react2.default.Component);
+  return _react2.default.createElement(
+    'div',
+    { className: 'carousel-item ' + (active ? active : '') },
+    imgpath ? _react2.default.createElement('img', { className: 'd-block img-center',
+      style: { height: containerHeight / 3, width: containerHeight / 3 },
+      src: imgpath }) : null,
+    title ? _react2.default.createElement(
+      'h3',
+      { className: titleKlass ? titleKlass : '' },
+      title
+    ) : null,
+    tekst ? _react2.default.createElement(
+      'p',
+      { className: tekstKlass ? tekstKlass : '' },
+      tekst
+    ) : null
+  );
+};
 
 exports.default = Slide;
+
+/*
+export default class Slide extends React.Component {
+  render() {
+    const {imgpath, active, containerHeight, tekstKlass, titleKlass, title, tekst} = this.props;
+    return(
+      <div className={`carousel-item ${active ? active : ''}`}>
+        {imgpath ?
+          <img className="d-block img-center"
+             style={{height: containerHeight/3, width: containerHeight/3}}
+             src={imgpath} />
+          : null}
+        {title ?
+          <h3 className={titleKlass ? titleKlass : ''}>
+            {title}
+          </h3>
+          : null}
+        {tekst ?
+          <p className={tekstKlass ? tekstKlass : ''}>
+            {tekst}
+          </p>
+          : null}
+      </div>
+    )
+  }
+}
+*/
 
 /***/ }),
 
