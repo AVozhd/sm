@@ -128,7 +128,7 @@ body.modal-open {
 }
 
 .section4-container {
-  background-color: #20c997;
+  background-color: #12AA8D;
   /*background-color: #00e1ff;*/
   padding-top: 50px;
   padding-bottom: 50px;
@@ -145,7 +145,7 @@ body.modal-open {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  background-color: #00e1ff;
+  background-color: #63BEDD;
   /*background-color: #20c997;*/
   border: none;
   padding: 10px 0;
@@ -166,3 +166,28 @@ body.modal-open {
   margin: 0 auto;
 }
 
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+.margin-top-0 {
+  margin-top: 0;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.footer {
+  height: 100px;
+  background-color: #63BEDD;
+  padding: 10px 0;
+}
+
+.no-bg {
+  background: none;
+}

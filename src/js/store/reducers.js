@@ -27,6 +27,14 @@ export const rootReducer = (state = initialAppState, action) => {
           src: action.payload
         }
       };
+    case types.ACTION_GET_SLIDE_DIM:
+      return {
+        ...state,
+        slides: {
+          ...state.slides,
+          dimensions: action.payload
+        }
+      };
   }
   return state;
 };

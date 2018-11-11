@@ -20,3 +20,10 @@ export const changeLogoPath = (newPath) => {
     payload: newPath
   };
 };
+
+export const getSlideDim = (slideDim) => {
+  return {
+    type: types.ACTION_GET_SLIDE_DIM,
+    payload: slideDim
+  };
+};

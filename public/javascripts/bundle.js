@@ -4252,7 +4252,7 @@ exports.i(__webpack_require__(/*! -!../../node_modules/css-loader!./modal.css */
 exports.i(__webpack_require__(/*! -!../../node_modules/css-loader!./section4svg.css */ "./node_modules/css-loader/index.js!./src/css/section4svg.css"), "");
 
 // module
-exports.push([module.i, "body.modal-open {\n  overflow-y: scroll;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.cover-image {\n  background: url(" + escape(__webpack_require__(/*! ../../public/images/cover1.jpg */ "./public/images/cover1.jpg")) + ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color:rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.doplogo {\n  position:fixed;\n  right: 0;\n  top: 0;\n  height: 100px;\n  width: 100px;\n  padding-right: 10px;\n  padding-top: 10px;\n  z-index: 1000;\n}\n\n.hidden {\n  display: none;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 70px;\n  margin-bottom: 50px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width:100%;\n  max-height:100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin-bottom: 50px;\n  display: flex;\n  align-items: center;\n  border: none;\n}\n\n.section4-container {\n  background-color: #20c997;\n  /*background-color: #00e1ff;*/\n  padding-top: 50px;\n  padding-bottom: 50px;\n}\n\n.section4-text p {\n  text-align: center;\n  color: white;\n  margin-bottom: 20px;\n}\n\n.section4-btn {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 30px;\n  background-color: #00e1ff;\n  /*background-color: #20c997;*/\n  border: none;\n  padding: 10px 0;\n}\n\n.section4-img {\n  width: inherit;\n}\n\n.s4svg-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.img-center {\n  display: block;\n  margin: 0 auto;\n}\n\n", ""]);
+exports.push([module.i, "body.modal-open {\n  overflow-y: scroll;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.cover-image {\n  background: url(" + escape(__webpack_require__(/*! ../../public/images/cover1.jpg */ "./public/images/cover1.jpg")) + ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color:rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.doplogo {\n  position:fixed;\n  right: 0;\n  top: 0;\n  height: 100px;\n  width: 100px;\n  padding-right: 10px;\n  padding-top: 10px;\n  z-index: 1000;\n}\n\n.hidden {\n  display: none;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 70px;\n  margin-bottom: 50px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width:100%;\n  max-height:100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin-bottom: 50px;\n  display: flex;\n  align-items: center;\n  border: none;\n}\n\n.section4-container {\n  background-color: #12AA8D;\n  /*background-color: #00e1ff;*/\n  padding-top: 50px;\n  padding-bottom: 50px;\n}\n\n.section4-text p {\n  text-align: center;\n  color: white;\n  margin-bottom: 20px;\n}\n\n.section4-btn {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 30px;\n  background-color: #63BEDD;\n  /*background-color: #20c997;*/\n  border: none;\n  padding: 10px 0;\n}\n\n.section4-img {\n  width: inherit;\n}\n\n.s4svg-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.img-center {\n  display: block;\n  margin: 0 auto;\n}\n\n.margin-bottom-30 {\n  margin-bottom: 30px;\n}\n\n.margin-bottom-0 {\n  margin-bottom: 0;\n}\n\n.margin-top-0 {\n  margin-top: 0;\n}\n\n.margin-bottom-10 {\n  margin-bottom: 10px;\n}\n\n.footer {\n  height: 100px;\n  background-color: #63BEDD;\n  padding: 10px 0;\n}\n\n.no-bg {\n  background: none;\n}\n", ""]);
 
 // exports
 
@@ -51177,6 +51177,10 @@ var _Section11 = __webpack_require__(/*! ./container/Section6 */ "./src/js/compo
 
 var _Section12 = _interopRequireDefault(_Section11);
 
+var _Footer = __webpack_require__(/*! ./container/Footer */ "./src/js/components/container/Footer.js");
+
+var _Footer2 = _interopRequireDefault(_Footer);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -51212,7 +51216,8 @@ var MainComponent = function (_React$Component) {
         _react2.default.createElement(_Section6.default, { containerWidth: this.props.windowDimensions.width }),
         _react2.default.createElement(_Section8.default, null),
         _react2.default.createElement(_Section10.default, null),
-        _react2.default.createElement(_Section12.default, null)
+        _react2.default.createElement(_Section12.default, null),
+        _react2.default.createElement(_Footer2.default, null)
       );
     }
   }]);
@@ -51241,6 +51246,80 @@ exports.default = (0, _reactRedux.connect)(function (state) {
     setWindowDimensions: (0, _redux.bindActionCreators)(_actions.setWindowDimensions, dispatch)
   };
 })(MainComponent);
+
+/***/ }),
+
+/***/ "./src/js/components/container/Footer.js":
+/*!***********************************************!*\
+  !*** ./src/js/components/container/Footer.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Card = __webpack_require__(/*! ../presentational/Card */ "./src/js/components/presentational/Card.js");
+
+var _Card2 = _interopRequireDefault(_Card);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Footer = function (_React$Component) {
+  _inherits(Footer, _React$Component);
+
+  function Footer() {
+    _classCallCheck(this, Footer);
+
+    return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
+  }
+
+  _createClass(Footer, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'footer' },
+        _react2.default.createElement(
+          'div',
+          { className: 'container' },
+          _react2.default.createElement(
+            'div',
+            { className: 'row' },
+            _react2.default.createElement(_Card2.default, { containerKlass: 'card col-lg-3 col-md-3 col-3 no-bg',
+              imgpath: 'images/facebook.svg' }),
+            _react2.default.createElement(_Card2.default, { containerKlass: 'card col-lg-3 col-md-3 col-3 no-bg',
+              imgpath: 'images/instagram.svg' }),
+            _react2.default.createElement(_Card2.default, { containerKlass: 'card col-lg-3 col-md-3 col-3 no-bg',
+              imgpath: 'images/linkedin.svg' }),
+            _react2.default.createElement(_Card2.default, { containerKlass: 'card col-lg-3 col-md-3 col-3 no-bg',
+              imgpath: 'images/vk.svg' })
+          )
+        )
+      );
+    }
+  }]);
+
+  return Footer;
+}(_react2.default.Component);
+
+exports.default = Footer;
 
 /***/ }),
 
@@ -52623,7 +52702,7 @@ var Section5 = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'section',
-        null,
+        { className: 'margin-bottom-30' },
         _react2.default.createElement(
           'h1',
           { className: 'section2-title' },
@@ -52733,7 +52812,7 @@ var Section6 = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'section',
-        null,
+        { className: 'margin-bottom-30' },
         _react2.default.createElement(
           'div',
           { className: 'container' },
@@ -52745,12 +52824,31 @@ var Section6 = function (_React$Component) {
               { className: 'carousel-inner' },
               _react2.default.createElement(_Slide2.default, { active: 'active',
                 imgpath: 'images/pict1.png',
-                titleKlass: 'text-center',
-                tekstKlass: 'text-center',
+                titleKlass: 'text-center small margin-bottom-10',
+                tekstKlass: 'text-center margin-bottom-30',
+                imgKlass: 'margin-bottom-30',
+                title: '\u042F\u043D\u0430 \u0411\u043E\u0440\u0438\u0441\u043E\u0432\u0430, \u0441\u043A\u0430\u0437\u043A\u043E\u0442\u0435\u0440\u0430\u043F\u0435\u0432\u0442',
+                tip: '@krasotulya_yanulya',
+                tipKlass: 'text-center small margin-top-0',
+                tekst: '\u0414\u043E \u043F\u0440\u043E\u0445\u043E\u0436\u0434\u0435\u043D\u0438\u044F \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u044F \u044F \u0430\u0431\u0441\u043E\u043B\u044E\u0442\u043D\u043E \u043D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u0437\u043D\u0430\u043B\u0430 \u043E Instagram. \u041C\u043E\u0436\u043D\u043E \u0441\u043A\u0430\u0437\u0430\u0442\u044C, \u0447\u0442\u043E \u044F \u0431\u044B\u043B\u0430 \u0441\u0443\u043F\u0435\u0440-\u043D\u043E\u0432\u0438\u0447\u043E\u043A. \u041A\u0430\u043A \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C \u044F \u0443\u043C\u0435\u043B\u0430 \u043F\u043E\u0441\u0442\u0438\u0442\u044C \u0444\u043E\u0442\u043E \u0438 \u043D\u0430\u0432\u0435\u0440\u043D\u043E \u0432\u0441\u0451. \u0421\u043F\u0430\u0441\u0438\u0431\u043E \u0431\u043E\u043B\u044C\u0448\u043E\u0435 \u043A\u0443\u0440\u0441\u0443 Self.Marketing \u0437\u0430 \u043C\u043E\u044E \u043D\u043E\u0432\u0443\u044E \u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u044E. \u0420\u0430\u043D\u044C\u0448\u0435 \u0441\u043A\u0430\u0437\u043A\u043E\u0442\u0435\u0440\u0430\u043F\u0438\u044F \u0434\u043B\u044F \u043C\u0435\u043D\u044F \u0431\u044B\u043B\u043E \u043F\u0440\u043E\u0441\u0442\u043E \u0445\u043E\u0431\u0431\u0438, \u043D\u043E \u0431\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u044F \u043C\u043E\u0435\u043C\u0443 \u0431\u043B\u043E\u0433\u0443 \u0432 Instagram  - \u0441\u0442\u0430\u043B\u0430 \u0445\u043E\u0431\u0431\u0438, \u043A\u043E\u0442\u043E\u0440\u043E\u0435 \u043F\u0440\u0438\u043D\u043E\u0441\u0438\u0442 \u043F\u0440\u0438\u0431\u044B\u043B\u044C. \u0421\u043E\u0432\u0435\u0442\u0443\u044E \u0432\u0441\u0435\u043C, \u043A\u0442\u043E \u0445\u043E\u0447\u0435\u0442 \u043F\u0435\u0440\u0435\u0439\u0442\u0438 \u043D\u0430 \u0443\u0434\u0430\u043B\u0435\u043D\u043D\u0443\u044E \u0440\u0430\u0431\u043E\u0442\u0443.',
                 containerHeight: this.props.windowDimensions.height / 2 }),
               _react2.default.createElement(_Slide2.default, { imgpath: 'images/pict2.png',
+                imgKlass: 'margin-bottom-30',
+                titleKlass: 'text-center small margin-bottom-10',
+                tekstKlass: 'text-center margin-bottom-30',
+                title: '\u0421\u0432\u0435\u0442\u043B\u0430\u043D\u0430 \u041B\u0430\u043D\u0441\u043A\u0430\u044F, \u0432\u0435\u0434\u0443\u0449\u0430\u044F \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u0439 \u041C\u043E\u0441\u043A\u0432\u0430',
+                tekst: '\u041E\u0447\u0435\u043D\u044C \u0440\u0430\u0434\u0430, \u0447\u0442\u043E \u0412\u0430\u0441 \u043D\u0430\u0448\u043B\u0430. \u0411\u0443\u043A\u0432\u0430\u043B\u044C\u043D\u043E \u0440\u0443\u043A\u0438 \u043C\u043D\u0435 \u0440\u0430\u0437\u0432\u044F\u0437\u0430\u043B\u0438!',
+                tip: '@svetalanskaya',
+                tipKlass: 'text-center small margin-top-0',
                 containerHeight: this.props.windowDimensions.height / 2 }),
               _react2.default.createElement(_Slide2.default, { imgpath: 'images/pict3.png',
+                imgKlass: 'margin-bottom-30',
+                titleKlass: 'text-center small margin-bottom-10',
+                tekstKlass: 'text-center margin-bottom-30',
+                title: '\u0415\u043B\u0435\u043D\u0430 \u041C\u0443\u0445\u043B\u044B\u043D\u0438\u043D\u0430, \u043C\u0430\u0441\u0442\u0435\u0440-\u0431\u0440\u043E\u0432\u0438\u0441\u0442 \u0438\u0437 \u041D\u0430\u0445\u043E\u0434\u043A\u0438',
+                tekst: '\u041C\u043D\u0435 \u0432\u0441\u0435 \u043F\u043E\u043D\u0440\u0430\u0432\u0438\u043B\u043E\u0441\u044C!  \u041C\u043E\u0439 \u0431\u043B\u043E\u0433 \u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u0438\u043B\u0441\u044F, \u0434\u0443\u043C\u0430\u044E \u0432\u0441\u0435 \u0443\u0432\u0438\u0434\u044F\u0442 \u0440\u0430\u0437\u043D\u0438\u0446\u0443.',
+                tip: '@elenamukhlinina',
+                tipKlass: 'text-center small margin-top-0',
                 containerHeight: this.props.windowDimensions.height / 2 })
             ),
             _react2.default.createElement(
@@ -52917,7 +53015,9 @@ var Card = function (_React$Component) {
           cardKlass = _props.cardKlass,
           containerKlass = _props.containerKlass,
           titleKlass = _props.titleKlass,
-          tekstKlass = _props.tekstKlass;
+          tekstKlass = _props.tekstKlass,
+          title = _props.title,
+          tekst = _props.tekst;
       var _state$dimensions = this.state.dimensions,
           width = _state$dimensions.width,
           height = _state$dimensions.height;
@@ -52927,19 +53027,19 @@ var Card = function (_React$Component) {
         'div',
         { className: containerKlass },
         _react2.default.createElement('img', { onLoad: this.onImgLoad,
-          className: 'section2-card-img ' + cardKlass,
+          className: 'section2-card-img ' + (cardKlass ? cardKlass : ''),
           style: this.state.dimensions.height === 0 ? null : { height: this.state.dimensions.height, width: this.state.dimensions.width },
           src: imgpath }),
-        _react2.default.createElement(
+        title ? _react2.default.createElement(
           'h3',
           { className: 'section2-card-title ' + titleKlass },
-          this.props.title
-        ),
-        _react2.default.createElement(
+          title
+        ) : null,
+        tekst ? _react2.default.createElement(
           'p',
           { className: tekstKlass },
-          this.props.tekst
-        )
+          tekst
+        ) : null
       );
     }
   }]);
@@ -53276,68 +53376,132 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _redux = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _jquery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+
+var _jquery2 = _interopRequireDefault(_jquery);
+
+var _actions = __webpack_require__(/*! ../../store/actions */ "./src/js/store/actions.js");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Slide = function Slide(_ref) {
-  var imgpath = _ref.imgpath,
-      active = _ref.active,
-      containerHeight = _ref.containerHeight,
-      tekstKlass = _ref.tekstKlass,
-      titleKlass = _ref.titleKlass,
-      title = _ref.title,
-      tekst = _ref.tekst;
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
-  return _react2.default.createElement(
-    'div',
-    { className: 'carousel-item ' + (active ? active : '') },
-    imgpath ? _react2.default.createElement('img', { className: 'd-block img-center',
-      style: { height: containerHeight / 3, width: containerHeight / 3 },
-      src: imgpath }) : null,
-    title ? _react2.default.createElement(
-      'h3',
-      { className: titleKlass ? titleKlass : '' },
-      title
-    ) : null,
-    tekst ? _react2.default.createElement(
-      'p',
-      { className: tekstKlass ? tekstKlass : '' },
-      tekst
-    ) : null
-  );
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Slide = function (_React$Component) {
+  _inherits(Slide, _React$Component);
+
+  function Slide(props) {
+    _classCallCheck(this, Slide);
+
+    var _this = _possibleConstructorReturn(this, (Slide.__proto__ || Object.getPrototypeOf(Slide)).call(this, props));
+
+    _this.slide = _react2.default.createRef();
+    _this.state = {
+      dimensions: {
+        height: 0,
+        width: 0
+      }
+    };
+    return _this;
+  }
+
+  _createClass(Slide, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      var slideHeight = (0, _jquery2.default)(this.slide.current).height();
+      var slideWidth = (0, _jquery2.default)(this.slide.current).width();
+      var iniStateSlideDim = this.props.slidesDimensions;
+      iniStateSlideDim.height.push(slideHeight);
+      iniStateSlideDim.width.push(slideWidth);
+      this.props.getSlideDim(iniStateSlideDim);
+      var maxHeight = Math.max.apply(Math, _toConsumableArray(this.props.slidesDimensions.height));
+      var maxWidth = Math.max.apply(Math, _toConsumableArray(this.props.slidesDimensions.width));
+      this.setState({
+        dimensions: {
+          height: maxHeight,
+          width: maxWidth
+        }
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _props = this.props,
+          imgpath = _props.imgpath,
+          tip = _props.tip,
+          tipKlass = _props.tipKlass,
+          imgKlass = _props.imgKlass,
+          containerKlass = _props.containerKlass,
+          active = _props.active,
+          containerHeight = _props.containerHeight,
+          tekstKlass = _props.tekstKlass,
+          titleKlass = _props.titleKlass,
+          title = _props.title,
+          tekst = _props.tekst;
+
+      return _react2.default.createElement(
+        'div',
+        { ref: this.slide,
+          style: this.state.dimensions.height === 0 ? null : { height: this.state.dimensions.height, width: this.state.dimensions.width },
+          className: 'carousel-item ' + (active ? active : '') + ' ' + (containerKlass ? containerKlass : '') },
+        imgpath ? _react2.default.createElement('img', { className: 'd-block img-center ' + (imgKlass ? imgKlass : ''),
+          style: { height: containerHeight / 3, width: containerHeight / 3 },
+          src: imgpath }) : null,
+        tekst ? _react2.default.createElement(
+          'p',
+          { className: tekstKlass ? tekstKlass : '' },
+          tekst
+        ) : null,
+        title ? _react2.default.createElement(
+          'h1',
+          { className: titleKlass ? titleKlass : '' },
+          title
+        ) : null,
+        tip ? _react2.default.createElement(
+          'h3',
+          { className: tipKlass ? tipKlass : '' },
+          tip
+        ) : null
+      );
+    }
+  }]);
+
+  return Slide;
+}(_react2.default.Component);
+
+Slide.propTypes = {
+  slidesDimensions: _propTypes2.default.object,
+  getSlideDim: _propTypes2.default.func
 };
 
-exports.default = Slide;
-
-/*
-export default class Slide extends React.Component {
-  render() {
-    const {imgpath, active, containerHeight, tekstKlass, titleKlass, title, tekst} = this.props;
-    return(
-      <div className={`carousel-item ${active ? active : ''}`}>
-        {imgpath ?
-          <img className="d-block img-center"
-             style={{height: containerHeight/3, width: containerHeight/3}}
-             src={imgpath} />
-          : null}
-        {title ?
-          <h3 className={titleKlass ? titleKlass : ''}>
-            {title}
-          </h3>
-          : null}
-        {tekst ?
-          <p className={tekstKlass ? tekstKlass : ''}>
-            {tekst}
-          </p>
-          : null}
-      </div>
-    )
-  }
-}
-*/
+exports.default = (0, _reactRedux.connect)(function (state) {
+  return {
+    slidesDimensions: state.slides.dimensions
+  };
+}, function (dispatch) {
+  return {
+    getSlideDim: (0, _redux.bindActionCreators)(_actions.getSlideDim, dispatch)
+  };
+})(Slide);
 
 /***/ }),
 
@@ -53354,7 +53518,7 @@ export default class Slide extends React.Component {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.changeLogoPath = exports.getCardDim = exports.setWindowDimensions = undefined;
+exports.getSlideDim = exports.changeLogoPath = exports.getCardDim = exports.setWindowDimensions = undefined;
 
 var _actionsTypes = __webpack_require__(/*! ./actionsTypes */ "./src/js/store/actionsTypes.js");
 
@@ -53383,6 +53547,13 @@ var changeLogoPath = exports.changeLogoPath = function changeLogoPath(newPath) {
   };
 };
 
+var getSlideDim = exports.getSlideDim = function getSlideDim(slideDim) {
+  return {
+    type: types.ACTION_GET_SLIDE_DIM,
+    payload: slideDim
+  };
+};
+
 /***/ }),
 
 /***/ "./src/js/store/actionsTypes.js":
@@ -53401,6 +53572,7 @@ Object.defineProperty(exports, "__esModule", {
 var ACTION_RESIZE_WINDOW = exports.ACTION_RESIZE_WINDOW = 'ACTION_RESIZE_WINDOW';
 var ACTION_GET_CARD_DIM = exports.ACTION_GET_CARD_DIM = 'ACTION_GET_CARD_DIM';
 var ACTION_CHANGE_LOGO_PATH = exports.ACTION_CHANGE_LOGO_PATH = 'ACTION_CHANGE_LOGO_PATH';
+var ACTION_GET_SLIDE_DIM = exports.ACTION_GET_SLIDE_DIM = 'ACTION_GET_SLIDE_DIM';
 
 /***/ }),
 
@@ -53425,6 +53597,12 @@ var initialAppState = {
     }
   },
   cards: {
+    dimensions: {
+      height: [],
+      width: []
+    }
+  },
+  slides: {
     dimensions: {
       height: [],
       width: []
@@ -53489,6 +53667,12 @@ var rootReducer = exports.rootReducer = function rootReducer() {
       return _extends({}, state, {
         logo: _extends({}, state.logo, {
           src: action.payload
+        })
+      });
+    case types.ACTION_GET_SLIDE_DIM:
+      return _extends({}, state, {
+        slides: _extends({}, state.slides, {
+          dimensions: action.payload
         })
       });
   }

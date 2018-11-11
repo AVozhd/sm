@@ -11,6 +11,12 @@ const initialAppState = {
       width: [],
     }
   },
+  slides: {
+    dimensions: {
+      height: [],
+      width: [],
+    }
+  },
   logo: {
     src: 'images/logowhite.png'
   }

@@ -13,7 +13,7 @@ class Section5 extends React.Component {
 
   render() {
     return(
-      <section>
+      <section className="margin-bottom-30">
         <h1 className="section2-title">
           Варианты обучения
         </h1>

@@ -11,6 +11,7 @@ import Section3 from './container/Section3';
 import Section4 from './container/Section4';
 import Section5 from './container/Section5';
 import Section6 from './container/Section6';
+import Footer from './container/Footer';
 
 class MainComponent extends React.Component {
   constructor(props) {
@@ -31,6 +32,7 @@ class MainComponent extends React.Component {
         <Section4 />
         <Section5 />
         <Section6 />
+        <Footer />
       </React.Fragment>
     )
   }

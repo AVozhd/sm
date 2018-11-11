@@ -30,21 +30,25 @@ class Card extends React.Component {
         });
     }
     render() {
-        const {imgpath, cardKlass, containerKlass, titleKlass, tekstKlass} = this.props;
+        const {imgpath, cardKlass, containerKlass, titleKlass, tekstKlass, title, tekst} = this.props;
         const {width, height} = this.state.dimensions;
 
         return (
           <div className={containerKlass}>
             <img onLoad={this.onImgLoad}
-                     className={`section2-card-img ${cardKlass}`}
+                     className={`section2-card-img ${cardKlass ? cardKlass : ''}`}
                      style={this.state.dimensions.height === 0 ? null : { height: this.state.dimensions.height, width: this.state.dimensions.width }}
                      src={imgpath} />
-            <h3 className={`section2-card-title ${titleKlass}`}>
-              {this.props.title}
-            </h3>
-            <p className={tekstKlass}>
-              {this.props.tekst}
-            </p>
+            {title ?
+              <h3 className={`section2-card-title ${titleKlass}`}>
+                {title}
+              </h3>
+              : null}
+            {tekst ?
+              <p className={tekstKlass}>
+                {tekst}
+              </p>
+              : null}
           </div>
         );
     }
