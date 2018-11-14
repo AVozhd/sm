@@ -7,22 +7,18 @@ export default class Footer extends React.Component {
       <div className="footer">
         <div className="container">
           <div className="row">
-            <Card
-              containerKlass="card col-lg-3 col-md-3 col-3 no-bg"
-              imgpath="images/facebook.svg"
-            />
-            <Card
-              containerKlass="card col-lg-3 col-md-3 col-3 no-bg"
-              imgpath="images/instagram.svg"
-            />
-            <Card
-              containerKlass="card col-lg-3 col-md-3 col-3 no-bg"
-              imgpath="images/linkedin.svg"
-            />
-            <Card
-              containerKlass="card col-lg-3 col-md-3 col-3 no-bg"
-              imgpath="images/vk.svg"
-            />
+            <p className="footer-title">
+              <span>© 2018 Self-Marketing</span>
+            </p>
+            <a href="https://vk.com/self__marketing" target="_blank">
+              <Card cardKlass="footer-social-img" imgpath="images/vk.svg" />
+            </a>
+            <a href="https://www.instagram.com/self.marketing/" target="_blank">
+              <Card
+                cardKlass="footer-social-img"
+                imgpath="images/instagram.svg"
+              />
+            </a>
           </div>
         </div>
       </div>

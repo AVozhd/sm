@@ -5048,7 +5048,7 @@
                 /*! ../../public/images/cover1.jpg */ "./public/images/cover1.jpg"
               )
             ) +
-            ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color:rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.doplogo {\n  position:fixed;\n  right: 0;\n  top: 0;\n  height: 100px;\n  width: 100px;\n  padding-right: 10px;\n  padding-top: 10px;\n  z-index: 1000;\n}\n\n.hidden {\n  display: none;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 70px;\n  margin-bottom: 50px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width:100%;\n  max-height:100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin-bottom: 50px;\n  display: flex;\n  align-items: center;\n  border: none;\n}\n\n.section4-container {\n  background-color: #12AA8D;\n  /*background-color: #00e1ff;*/\n  padding-top: 50px;\n  padding-bottom: 50px;\n}\n\n.section4-text p {\n  text-align: center;\n  color: white;\n  margin-bottom: 20px;\n}\n\n.section4-btn {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 30px;\n  background-color: #63BEDD;\n  /*background-color: #20c997;*/\n  border: none;\n  padding: 10px 0;\n}\n\n.section4-img {\n  width: inherit;\n}\n\n.s4svg-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.img-center {\n  display: block;\n  margin: 0 auto;\n}\n\n.margin-bottom-30 {\n  margin-bottom: 30px;\n}\n\n.margin-bottom-0 {\n  margin-bottom: 0;\n}\n\n.margin-top-0 {\n  margin-top: 0;\n}\n\n.margin-bottom-10 {\n  margin-bottom: 10px;\n}\n\n.footer {\n  height: 100px;\n  background-color: #63BEDD;\n  padding: 10px 0;\n}\n\n.no-bg {\n  background: none;\n}\n",
+            ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color: rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.doplogo {\n  position: fixed;\n  right: 0;\n  top: 0;\n  height: 100px;\n  width: 100px;\n  padding-right: 10px;\n  padding-top: 10px;\n  z-index: 1000;\n}\n\n.hidden {\n  display: none;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 70px;\n  margin-bottom: 50px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width: 100%;\n  max-height: 100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin-bottom: 50px;\n  display: flex;\n  align-items: center;\n  border: none;\n}\n\n.section4-container {\n  background-color: #12aa8d;\n  /*background-color: #00e1ff;*/\n  padding-top: 50px;\n  padding-bottom: 50px;\n}\n\n.section4-text p {\n  text-align: center;\n  color: white;\n  margin-bottom: 20px;\n}\n\n.section4-btn {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 30px;\n  background-color: #63bedd;\n  /*background-color: #20c997;*/\n  border: none;\n  padding: 10px 0;\n}\n\n.section4-img {\n  width: inherit;\n}\n\n.s4svg-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.img-center {\n  display: block;\n  margin: 0 auto;\n}\n\n.margin-bottom-30 {\n  margin-bottom: 30px;\n}\n\n.margin-bottom-0 {\n  margin-bottom: 0;\n}\n\n.margin-top-0 {\n  margin-top: 0;\n}\n\n.margin-bottom-10 {\n  margin-bottom: 10px;\n}\n\n.footer {\n  background-color: #63bedd;\n  padding: 10px 0;\n}\n\n.no-bg {\n  background: none;\n}\n\n.footer-social-img {\n  height: 50px;\n}\n\n.footer .container .row {\n  display: flex;\n  justify-content: space-around;\n}\n\n.footer-title {\n  color: white;\n  font-size: 1.3em;\n  height: inherit;\n  margin-bottom: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.section5-card {\n  max-width: 200px;\n  display: block;\n  margin: 0 auto;\n}\n\n.section5-card-link {\n  text-decoration: none;\n  color: black;\n}\n\n.section5-card-link:visited {\n  text-decoration: none;\n  color: black;\n}\n\n.section5-card-link:hover {\n  text-decoration: none;\n  color: black;\n}\n\n/*.section5-card-container {\n  text-decoration: none;\n}*/\n\n/*\n.btn-animation {\n  position: absolute;\n  width: inherit;\n  height: inherit;\n  background-color: #fff;\n  top: -14px;\n  left: -10px;\n  transform: scale(0);\n  opacity: 0.5;\n}\n\n.btn-main:hover {\n  animation: ripple2 2s;\n}\n\n@keyframes ripple2 {\n  0% {\n    transform: scaleX(0);\n  }\n  20% {\n    transform: scaleX(1);\n    opacity: 0.3;\n  }\n  100% {\n    transform: scaleX(1);\n    opacity: 0;\n  }\n}*/\n",
           ""
         ]);
 
@@ -62301,22 +62301,37 @@ object-assign
                     _react2.default.createElement(
                       "div",
                       { className: "row" },
-                      _react2.default.createElement(_Card2.default, {
-                        containerKlass: "card col-lg-3 col-md-3 col-3 no-bg",
-                        imgpath: "images/facebook.svg"
-                      }),
-                      _react2.default.createElement(_Card2.default, {
-                        containerKlass: "card col-lg-3 col-md-3 col-3 no-bg",
-                        imgpath: "images/instagram.svg"
-                      }),
-                      _react2.default.createElement(_Card2.default, {
-                        containerKlass: "card col-lg-3 col-md-3 col-3 no-bg",
-                        imgpath: "images/linkedin.svg"
-                      }),
-                      _react2.default.createElement(_Card2.default, {
-                        containerKlass: "card col-lg-3 col-md-3 col-3 no-bg",
-                        imgpath: "images/vk.svg"
-                      })
+                      _react2.default.createElement(
+                        "p",
+                        { className: "footer-title" },
+                        _react2.default.createElement(
+                          "span",
+                          null,
+                          "\xA9 2018 Self-Marketing"
+                        )
+                      ),
+                      _react2.default.createElement(
+                        "a",
+                        {
+                          href: "https://vk.com/self__marketing",
+                          target: "_blank"
+                        },
+                        _react2.default.createElement(_Card2.default, {
+                          cardKlass: "footer-social-img",
+                          imgpath: "images/vk.svg"
+                        })
+                      ),
+                      _react2.default.createElement(
+                        "a",
+                        {
+                          href: "https://www.instagram.com/self.marketing/",
+                          target: "_blank"
+                        },
+                        _react2.default.createElement(_Card2.default, {
+                          cardKlass: "footer-social-img",
+                          imgpath: "images/instagram.svg"
+                        })
+                      )
                     )
                   )
                 );
@@ -62507,7 +62522,10 @@ object-assign
                           _react2.default.createElement(_Button2.default, {
                             btntext:
                               "\u0417\u0430\u043F\u0438\u0441\u0430\u0442\u044C\u0441\u044F",
-                            btnclass: "btn-main"
+                            btnclass: "btn-main",
+                            blank: true,
+                            btnlink:
+                              "http://self-marketing.getcourse.ru/page1#luchshiquchenik"
                           })
                         )
                       )
@@ -64498,7 +64516,10 @@ object-assign
                           _react2.default.createElement(_Button2.default, {
                             btntext:
                               "\u0421\u041F\u0418\u0421\u041E\u041A \u0411\u0415\u0421\u041F\u041B\u0410\u0422\u041D\u041E",
-                            btnclass: "section4-btn"
+                            btnclass: "section4-btn",
+                            blank: true,
+                            btnlink:
+                              "http://self-marketing.getcourse.ru/page1#obichnayaforma"
                           })
                         )
                       )
@@ -64891,39 +64912,66 @@ object-assign
                     _react2.default.createElement(
                       "div",
                       { className: "row" },
-                      _react2.default.createElement(_Card2.default, {
-                        containerKlass: "card col-lg-4 col-md-6 col-12",
-                        imgpath: "images/performance.svg",
-                        cardKlass: "card1",
-                        title:
-                          "\u0421\u0430\u043C \u0441\u0435\u0431\u0435 \u043C\u0430\u0440\u043A\u0435\u0442\u043E\u043B\u043E\u0433",
-                        titleKlass: "text-center",
-                        tekstKlass: "text-center",
-                        tekst:
-                          "\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u043B\u0435\u043A\u0446\u0438\u044F\u043C \u043D\u0430 30 \u0434\u043D\u0435\u0439. \u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0434\u043E\u043C\u0430\u0448\u043D\u0435\u0433\u043E \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u0431\u0435\u0437 \u0440\u0430\u0437\u0431\u043E\u0440\u0430."
-                      }),
-                      _react2.default.createElement(_Card2.default, {
-                        containerKlass: "card col-lg-4 col-md-6 col-12",
-                        imgpath: "images/evaluation.svg",
-                        cardKlass: "card2",
-                        title:
-                          "\u041C\u0430\u0441\u0442\u0435\u0440-\u043C\u0430\u0440\u043A\u0435\u0442\u043E\u043B\u043E\u0433",
-                        titleKlass: "text-center",
-                        tekstKlass: "text-center",
-                        tekst:
-                          "\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u043B\u0435\u043A\u0446\u0438\u044F\u043C \u043D\u0430 30 \u0434\u043D\u0435\u0439. \u041F\u043E\u043B\u043D\u0430\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0445 \u0437\u0430\u0434\u0430\u043D\u0438\u0439 \u0441 \u0440\u0430\u0437\u0431\u043E\u0440\u043E\u043C. \u0414\u043E\u0441\u0442\u0443\u043F \u0432 \u0447\u0430\u0442 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438 \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438 \u043A\u0443\u0440\u0441\u0430."
-                      }),
-                      _react2.default.createElement(_Card2.default, {
-                        containerKlass: " card col-lg-4 col-md-6 col-12",
-                        imgpath: "images/conference.svg",
-                        cardKlass: "card3",
-                        title:
-                          "\u041B\u0443\u0447\u0448\u0438\u0439 \u0443\u0447\u0435\u043D\u0438\u043A",
-                        titleKlass: "text-center",
-                        tekstKlass: "text-center",
-                        tekst:
-                          "\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u043B\u0435\u043A\u0446\u0438\u044F\u043C \u043D\u0430 45 \u0434\u043D\u0435\u0439. \u041F\u043E\u043B\u043D\u0430\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0445 \u0437\u0430\u0434\u0430\u043D\u0438\u0439 \u0441 \u0440\u0430\u0437\u0431\u043E\u0440\u043E\u043C. \u0414\u043E\u0441\u0442\u0443\u043F \u0432 \u0447\u0430\u0442 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438 \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438 \u043A\u0443\u0440\u0441\u0430. \u041E\u043D\u043B\u0430\u0439\u043D \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0430 \u043A\u0443\u0440\u0430\u0442\u043E\u0440\u0430. \u0420\u0430\u0437\u0431\u043E\u0440 \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0438 \u0432\u043E\u043F\u0440\u043E\u0441\u043E\u0432 \u043F\u043E \u043B\u0438\u0447\u043D\u043E\u043C\u0443 \u043F\u0440\u043E\u0444\u0438\u043B\u044E."
-                      })
+                      _react2.default.createElement(
+                        "a",
+                        {
+                          href:
+                            "http://self-marketing.getcourse.ru/page1#samsebemarketolog",
+                          target: "_blank",
+                          className:
+                            "card col-lg-4 col-md-6 col-12 section5-card-link"
+                        },
+                        _react2.default.createElement(_Card2.default, {
+                          imgpath: "images/performance.svg",
+                          cardKlass: "card1 section5-card",
+                          title:
+                            "\u0421\u0430\u043C \u0441\u0435\u0431\u0435 \u043C\u0430\u0440\u043A\u0435\u0442\u043E\u043B\u043E\u0433",
+                          titleKlass: "text-center",
+                          tekstKlass: "text-center",
+                          tekst:
+                            "\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u043B\u0435\u043A\u0446\u0438\u044F\u043C \u043D\u0430 30 \u0434\u043D\u0435\u0439. \u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0434\u043E\u043C\u0430\u0448\u043D\u0435\u0433\u043E \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u0431\u0435\u0437 \u0440\u0430\u0437\u0431\u043E\u0440\u0430."
+                        })
+                      ),
+                      _react2.default.createElement(
+                        "a",
+                        {
+                          href:
+                            "http://self-marketing.getcourse.ru/page1#mastermarketolog",
+                          target: "_blank",
+                          className:
+                            "card col-lg-4 col-md-6 col-12 section5-card-link"
+                        },
+                        _react2.default.createElement(_Card2.default, {
+                          imgpath: "images/evaluation.svg",
+                          cardKlass: "card2 section5-card",
+                          title:
+                            "\u041C\u0430\u0441\u0442\u0435\u0440-\u043C\u0430\u0440\u043A\u0435\u0442\u043E\u043B\u043E\u0433",
+                          titleKlass: "text-center",
+                          tekstKlass: "text-center",
+                          tekst:
+                            "\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u043B\u0435\u043A\u0446\u0438\u044F\u043C \u043D\u0430 30 \u0434\u043D\u0435\u0439. \u041F\u043E\u043B\u043D\u0430\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0445 \u0437\u0430\u0434\u0430\u043D\u0438\u0439 \u0441 \u0440\u0430\u0437\u0431\u043E\u0440\u043E\u043C. \u0414\u043E\u0441\u0442\u0443\u043F \u0432 \u0447\u0430\u0442 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438 \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438 \u043A\u0443\u0440\u0441\u0430."
+                        })
+                      ),
+                      _react2.default.createElement(
+                        "a",
+                        {
+                          href:
+                            "http://self-marketing.getcourse.ru/page1#luchshiquchenik",
+                          target: "_blank",
+                          className:
+                            "card col-lg-4 col-md-6 col-12 section5-card-link"
+                        },
+                        _react2.default.createElement(_Card2.default, {
+                          imgpath: "images/conference.svg",
+                          cardKlass: "card3 section5-card",
+                          title:
+                            "\u041B\u0443\u0447\u0448\u0438\u0439 \u0443\u0447\u0435\u043D\u0438\u043A",
+                          titleKlass: "text-center",
+                          tekstKlass: "text-center",
+                          tekst:
+                            "\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u043B\u0435\u043A\u0446\u0438\u044F\u043C \u043D\u0430 45 \u0434\u043D\u0435\u0439. \u041F\u043E\u043B\u043D\u0430\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0445 \u0437\u0430\u0434\u0430\u043D\u0438\u0439 \u0441 \u0440\u0430\u0437\u0431\u043E\u0440\u043E\u043C. \u0414\u043E\u0441\u0442\u0443\u043F \u0432 \u0447\u0430\u0442 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438 \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438 \u043A\u0443\u0440\u0441\u0430. \u041E\u043D\u043B\u0430\u0439\u043D \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0430 \u043A\u0443\u0440\u0430\u0442\u043E\u0440\u0430. \u0420\u0430\u0437\u0431\u043E\u0440 \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0438 \u0432\u043E\u043F\u0440\u043E\u0441\u043E\u0432 \u043F\u043E \u043B\u0438\u0447\u043D\u043E\u043C\u0443 \u043F\u0440\u043E\u0444\u0438\u043B\u044E."
+                        })
+                      )
                     )
                   )
                 );
@@ -65220,13 +65268,16 @@ object-assign
 
         var Button = function Button(_ref) {
           var btntext = _ref.btntext,
-            btnclass = _ref.btnclass;
+            btnclass = _ref.btnclass,
+            btnlink = _ref.btnlink,
+            blank = _ref.blank;
 
           return _react2.default.createElement(
             "a",
             {
-              href: "#",
+              href: btnlink ? btnlink : "#",
               role: "button",
+              target: blank ? "_blank" : "_self",
               className: "btn btn-primary btn-lg btn-block " + btnclass
             },
             btntext
@@ -65420,7 +65471,7 @@ object-assign
 
                 return _react2.default.createElement(
                   "div",
-                  { className: containerKlass },
+                  { className: containerKlass, onClick: null },
                   _react2.default.createElement("img", {
                     onLoad: this.onImgLoad,
                     className:
@@ -65429,8 +65480,8 @@ object-assign
                       this.state.dimensions.height === 0
                         ? null
                         : {
-                            height: this.state.dimensions.height,
-                            width: this.state.dimensions.width
+                            height: this.state.dimensions.height
+                            // width: this.state.dimensions.width
                           },
                     src: imgpath
                   }),

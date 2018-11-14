@@ -1,8 +1,8 @@
-@import '~bootstrap/dist/css/bootstrap.min.css';
-@import 'fonts.css';
-@import 'svg.css';
-@import 'modal.css';
-@import 'section4svg.css';
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "fonts.css";
+@import "svg.css";
+@import "modal.css";
+@import "section4svg.css";
 
 body.modal-open {
   overflow-y: scroll;
@@ -23,7 +23,7 @@ body.modal-open {
 .topsection-view {
   height: inherit;
   width: inherit;
-  background-color:rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -78,7 +78,7 @@ body.modal-open {
 }
 
 .doplogo {
-  position:fixed;
+  position: fixed;
   right: 0;
   top: 0;
   height: 100px;
@@ -112,8 +112,8 @@ body.modal-open {
 }
 
 .section2-card-img {
-  max-width:100%;
-  max-height:100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .section2-card-title {
@@ -128,7 +128,7 @@ body.modal-open {
 }
 
 .section4-container {
-  background-color: #12AA8D;
+  background-color: #12aa8d;
   /*background-color: #00e1ff;*/
   padding-top: 50px;
   padding-bottom: 50px;
@@ -145,7 +145,7 @@ body.modal-open {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  background-color: #63BEDD;
+  background-color: #63bedd;
   /*background-color: #20c997;*/
   border: none;
   padding: 10px 0;
@@ -183,11 +183,84 @@ body.modal-open {
 }
 
 .footer {
-  height: 100px;
-  background-color: #63BEDD;
+  background-color: #63bedd;
   padding: 10px 0;
 }
 
 .no-bg {
   background: none;
 }
+
+.footer-social-img {
+  height: 50px;
+}
+
+.footer .container .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-title {
+  color: white;
+  font-size: 1.3em;
+  height: inherit;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section5-card {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.section5-card-link {
+  text-decoration: none;
+  color: black;
+}
+
+.section5-card-link:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.section5-card-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/*.section5-card-container {
+  text-decoration: none;
+}*/
+
+/*
+.btn-animation {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background-color: #fff;
+  top: -14px;
+  left: -10px;
+  transform: scale(0);
+  opacity: 0.5;
+}
+
+.btn-main:hover {
+  animation: ripple2 2s;
+}
+
+@keyframes ripple2 {
+  0% {
+    transform: scaleX(0);
+  }
+  20% {
+    transform: scaleX(1);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 0;
+  }
+}*/
