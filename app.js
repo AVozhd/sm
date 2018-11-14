@@ -35,10 +35,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use("/", indexRouter);
-app.use("/landing", landingRouter);
-app.use("/users", usersRouter);
-app.use("/catalog", catalogRouter); // Add catalog routes to middleware chain.
+app.use("/", landingRouter);
+// app.use("/landing", landingRouter);
+// app.use("/users", usersRouter);
+// app.use("/catalog", catalogRouter); // Add catalog routes to middleware chain.
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
