@@ -28,6 +28,7 @@ class Section5 extends React.Component {
                 title="Сам себе маркетолог"
                 titleKlass="text-center"
                 tekstKlass="text-center"
+                noImgResize={true}
                 tekst="Доступ к лекциям на 30 дней. Проверка домашнего задания без разбора."
               />
             </a>
@@ -42,6 +43,7 @@ class Section5 extends React.Component {
                 title="Мастер-маркетолог"
                 titleKlass="text-center"
                 tekstKlass="text-center"
+                noImgResize={true}
                 tekst="Доступ к лекциям на 30 дней. Полная проверка домашних заданий с разбором. Доступ в чат поддержки и другие активности курса."
               />
             </a>
@@ -56,6 +58,7 @@ class Section5 extends React.Component {
                 title="Лучший ученик"
                 titleKlass="text-center"
                 tekstKlass="text-center"
+                noImgResize={true}
                 tekst="Доступ к лекциям на 45 дней. Полная проверка домашних заданий с разбором. Доступ в чат поддержки и другие активности курса. Онлайн поддержка куратора. Разбор профиля и вопросов по личному профилю."
               />
             </a>

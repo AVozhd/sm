@@ -24,6 +24,7 @@ class Section2 extends React.Component {
               title="Новичкам"
               titleKlass="text-center"
               tekstKlass="text-center"
+              noImgResize={true}
               tekst="Курс поможет Вам разобраться: как работает Instagram; как Вы можете начать зарабатывать на ведении других страничек."
             />
             <Card
@@ -32,6 +33,7 @@ class Section2 extends React.Component {
               cardKlass="card2"
               titleKlass="text-center"
               tekstKlass="text-center"
+              noImgResize={true}
               title="Специалистам с базовыми знаниями"
               tekst="Полная проверка домашнего задания поможет Вам найти свои ошибки. Так же курс полезен тем, кто хочет узнать новейшие инструменты и изменения в Instagram."
             />
@@ -41,6 +43,7 @@ class Section2 extends React.Component {
               cardKlass="card3"
               titleKlass="text-center"
               tekstKlass="text-center"
+              noImgResize={true}
               title="Владельцам бизнеса и самозанятым"
               tekst="Курс поможет Вам самостоятельно развивать Вашу страничку. Если Вам важно понять, что 'заходит' в Instagram, а что нет."
             />

@@ -37,14 +37,15 @@ class Card extends React.Component {
       titleKlass,
       tekstKlass,
       title,
-      tekst
+      tekst,
+      noImgResize
     } = this.props;
     const { width, height } = this.state.dimensions;
 
     return (
       <div className={containerKlass} onClick={null}>
         <img
-          onLoad={this.onImgLoad}
+          onLoad={noImgResize ? null : this.onImgLoad}
           className={`section2-card-img ${cardKlass ? cardKlass : ""}`}
           style={
             this.state.dimensions.height === 0
