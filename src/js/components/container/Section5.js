@@ -31,6 +31,13 @@ class Section5 extends React.Component {
                 noImgResize={true}
                 tekst="Доступ к лекциям на 30 дней. Проверка домашнего задания без разбора."
               />
+              <button
+                type="button"
+                className="btn btn-outline-info sec5-price-btn"
+              >
+                <strike>3000 ₽</strike>
+                <span className="actual-price"> 1499 ₽</span>
+              </button>
             </a>
             <a
               href="http://self-marketing.getcourse.ru/page1#mastermarketolog"
@@ -46,6 +53,13 @@ class Section5 extends React.Component {
                 noImgResize={true}
                 tekst="Доступ к лекциям на 30 дней. Полная проверка домашних заданий с разбором. Доступ в чат поддержки и другие активности курса."
               />
+              <button
+                type="button"
+                className="btn btn-outline-info sec5-price-btn"
+              >
+                <strike>5000 ₽</strike>
+                <span className="actual-price"> 2499 ₽</span>
+              </button>
             </a>
             <a
               href="http://self-marketing.getcourse.ru/page1#luchshiquchenik"
@@ -61,6 +75,13 @@ class Section5 extends React.Component {
                 noImgResize={true}
                 tekst="Доступ к лекциям на 45 дней. Полная проверка домашних заданий с разбором. Доступ в чат поддержки и другие активности курса. Онлайн поддержка куратора. Разбор профиля и вопросов по личному профилю."
               />
+              <button
+                type="button"
+                className="btn btn-outline-info sec5-price-btn"
+              >
+                <strike>10 000 ₽</strike>
+                <span className="actual-price"> 4999 ₽</span>
+              </button>
             </a>
           </div>
         </div>

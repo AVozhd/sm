@@ -1,5 +1,5 @@
-import * as types from './actionsTypes';
-import initialAppState from './initialAppState';
+import * as types from "./actionsTypes";
+import initialAppState from "./initialAppState";
 
 export const rootReducer = (state = initialAppState, action) => {
   switch (action.type) {

@@ -5048,7 +5048,7 @@
                 /*! ../../public/images/cover1.jpg */ "./public/images/cover1.jpg"
               )
             ) +
-            ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color: rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.doplogo {\n  position: fixed;\n  right: 0;\n  top: 0;\n  height: 100px;\n  width: 100px;\n  padding-right: 10px;\n  padding-top: 10px;\n  z-index: 1000;\n}\n\n.hidden {\n  display: none;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 70px;\n  margin-bottom: 50px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width: 100%;\n  max-height: 100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin-bottom: 50px;\n  display: flex;\n  align-items: center;\n  border: none;\n}\n\n.section4-container {\n  background-color: #12aa8d;\n  /*background-color: #00e1ff;*/\n  padding-top: 50px;\n  padding-bottom: 50px;\n}\n\n.section4-text p {\n  text-align: center;\n  color: white;\n  margin-bottom: 20px;\n}\n\n.section4-btn {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 30px;\n  background-color: #63bedd;\n  /*background-color: #20c997;*/\n  border: none;\n  padding: 10px 0;\n}\n\n.section4-img {\n  width: inherit;\n}\n\n.s4svg-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.img-center {\n  display: block;\n  margin: 0 auto;\n}\n\n.margin-bottom-30 {\n  margin-bottom: 30px;\n}\n\n.margin-bottom-0 {\n  margin-bottom: 0;\n}\n\n.margin-top-0 {\n  margin-top: 0;\n}\n\n.margin-bottom-10 {\n  margin-bottom: 10px;\n}\n\n.footer {\n  background-color: #63bedd;\n  padding: 10px 0;\n}\n\n.no-bg {\n  background: none;\n}\n\n.footer-social-img {\n  height: 50px;\n}\n\n.footer .container .row {\n  display: flex;\n  justify-content: space-around;\n}\n\n.footer-title {\n  color: white;\n  font-size: 1.3em;\n  height: inherit;\n  margin-bottom: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.section5-card {\n  max-width: 200px;\n  display: block;\n  margin: 0 auto;\n}\n\n.section5-card-link {\n  text-decoration: none;\n  color: black;\n}\n\n.section5-card-link:visited {\n  text-decoration: none;\n  color: black;\n}\n\n.section5-card-link:hover {\n  text-decoration: none;\n  color: black;\n}\n\n/*.section5-card-container {\n  text-decoration: none;\n}*/\n\n/*\n.btn-animation {\n  position: absolute;\n  width: inherit;\n  height: inherit;\n  background-color: #fff;\n  top: -14px;\n  left: -10px;\n  transform: scale(0);\n  opacity: 0.5;\n}\n\n.btn-main:hover {\n  animation: ripple2 2s;\n}\n\n@keyframes ripple2 {\n  0% {\n    transform: scaleX(0);\n  }\n  20% {\n    transform: scaleX(1);\n    opacity: 0.3;\n  }\n  100% {\n    transform: scaleX(1);\n    opacity: 0;\n  }\n}*/\n",
+            ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color: rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.doplogo {\n  position: fixed;\n  right: 0;\n  top: 0;\n  height: 100px;\n  width: 100px;\n  padding-right: 10px;\n  padding-top: 10px;\n  z-index: 1000;\n}\n\n.hidden {\n  display: none;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 70px;\n  margin-bottom: 50px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width: 100%;\n  max-height: 100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin-bottom: 50px;\n  display: flex;\n  align-items: center;\n  border: none;\n}\n\n@media (min-width: 992px) {\n  .card {\n    margin-bottom: 100px;\n    display: flex;\n    align-items: center;\n    border: none;\n  }\n}\n\n.section4-container {\n  background-color: #12aa8d;\n  /*background-color: #00e1ff;*/\n  padding-top: 50px;\n  padding-bottom: 50px;\n}\n\n.section4-text p {\n  text-align: center;\n  color: white;\n  margin-bottom: 20px;\n}\n\n.section4-btn {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 30px;\n  background-color: #63bedd;\n  /*background-color: #20c997;*/\n  border: none;\n  padding: 10px 0;\n}\n\n.section4-img {\n  width: inherit;\n}\n\n.s4svg-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.img-center {\n  display: block;\n  margin: 0 auto;\n}\n\n.margin-bottom-30 {\n  margin-bottom: 30px;\n}\n\n.margin-bottom-0 {\n  margin-bottom: 0;\n}\n\n.margin-top-0 {\n  margin-top: 0;\n}\n\n.margin-bottom-10 {\n  margin-bottom: 10px;\n}\n\n.footer {\n  background-color: #63bedd;\n  padding: 10px 0;\n}\n\n.no-bg {\n  background: none;\n}\n\n.footer-social-img {\n  height: 50px;\n}\n\n.footer .container .row {\n  display: flex;\n  justify-content: space-around;\n}\n\n.footer-title {\n  color: white;\n  font-size: 1.3em;\n  height: inherit;\n  margin-bottom: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.section5-card {\n  max-width: 200px;\n  display: block;\n  margin: 0 auto;\n}\n\n.section5-card-link {\n  display: flex;\n  justify-content: space-between;\n  text-decoration: none;\n  color: black;\n}\n\n.section5-card-link:visited {\n  text-decoration: none;\n  color: black;\n}\n\n.section5-card-link:hover {\n  text-decoration: none;\n  color: black;\n}\n\n.actual-price {\n  color: #ed5565;\n}\n\n.sec5-price-btn {\n  width: 100%;\n}\n\n.margin-bottom-60 {\n  margin-bottom: 60px;\n}\n",
           ""
         ]);
 
@@ -64934,7 +64934,24 @@ object-assign
                           noImgResize: true,
                           tekst:
                             "\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u043B\u0435\u043A\u0446\u0438\u044F\u043C \u043D\u0430 30 \u0434\u043D\u0435\u0439. \u041F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0434\u043E\u043C\u0430\u0448\u043D\u0435\u0433\u043E \u0437\u0430\u0434\u0430\u043D\u0438\u044F \u0431\u0435\u0437 \u0440\u0430\u0437\u0431\u043E\u0440\u0430."
-                        })
+                        }),
+                        _react2.default.createElement(
+                          "button",
+                          {
+                            type: "button",
+                            className: "btn btn-outline-info sec5-price-btn"
+                          },
+                          _react2.default.createElement(
+                            "strike",
+                            null,
+                            "3000 \u20BD"
+                          ),
+                          _react2.default.createElement(
+                            "span",
+                            { className: "actual-price" },
+                            " 1499 \u20BD"
+                          )
+                        )
                       ),
                       _react2.default.createElement(
                         "a",
@@ -64955,7 +64972,24 @@ object-assign
                           noImgResize: true,
                           tekst:
                             "\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u043B\u0435\u043A\u0446\u0438\u044F\u043C \u043D\u0430 30 \u0434\u043D\u0435\u0439. \u041F\u043E\u043B\u043D\u0430\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0445 \u0437\u0430\u0434\u0430\u043D\u0438\u0439 \u0441 \u0440\u0430\u0437\u0431\u043E\u0440\u043E\u043C. \u0414\u043E\u0441\u0442\u0443\u043F \u0432 \u0447\u0430\u0442 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438 \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438 \u043A\u0443\u0440\u0441\u0430."
-                        })
+                        }),
+                        _react2.default.createElement(
+                          "button",
+                          {
+                            type: "button",
+                            className: "btn btn-outline-info sec5-price-btn"
+                          },
+                          _react2.default.createElement(
+                            "strike",
+                            null,
+                            "5000 \u20BD"
+                          ),
+                          _react2.default.createElement(
+                            "span",
+                            { className: "actual-price" },
+                            " 2499 \u20BD"
+                          )
+                        )
                       ),
                       _react2.default.createElement(
                         "a",
@@ -64976,7 +65010,24 @@ object-assign
                           noImgResize: true,
                           tekst:
                             "\u0414\u043E\u0441\u0442\u0443\u043F \u043A \u043B\u0435\u043A\u0446\u0438\u044F\u043C \u043D\u0430 45 \u0434\u043D\u0435\u0439. \u041F\u043E\u043B\u043D\u0430\u044F \u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0445 \u0437\u0430\u0434\u0430\u043D\u0438\u0439 \u0441 \u0440\u0430\u0437\u0431\u043E\u0440\u043E\u043C. \u0414\u043E\u0441\u0442\u0443\u043F \u0432 \u0447\u0430\u0442 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438 \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0430\u043A\u0442\u0438\u0432\u043D\u043E\u0441\u0442\u0438 \u043A\u0443\u0440\u0441\u0430. \u041E\u043D\u043B\u0430\u0439\u043D \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0430 \u043A\u0443\u0440\u0430\u0442\u043E\u0440\u0430. \u0420\u0430\u0437\u0431\u043E\u0440 \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0438 \u0432\u043E\u043F\u0440\u043E\u0441\u043E\u0432 \u043F\u043E \u043B\u0438\u0447\u043D\u043E\u043C\u0443 \u043F\u0440\u043E\u0444\u0438\u043B\u044E."
-                        })
+                        }),
+                        _react2.default.createElement(
+                          "button",
+                          {
+                            type: "button",
+                            className: "btn btn-outline-info sec5-price-btn"
+                          },
+                          _react2.default.createElement(
+                            "strike",
+                            null,
+                            "10 000 \u20BD"
+                          ),
+                          _react2.default.createElement(
+                            "span",
+                            { className: "actual-price" },
+                            " 4999 \u20BD"
+                          )
+                        )
                       )
                     )
                   )
@@ -65126,9 +65177,15 @@ object-assign
             {
               key: "render",
               value: function render() {
+                console.log(this.props.windowDimensions.height);
                 return _react2.default.createElement(
                   "section",
-                  { className: "margin-bottom-30" },
+                  {
+                    className:
+                      this.props.windowDimensions.height > 767
+                        ? "margin-bottom-60"
+                        : "margin-bottom-30"
+                  },
                   _react2.default.createElement(
                     "div",
                     { className: "container" },

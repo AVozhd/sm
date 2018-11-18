@@ -6,8 +6,15 @@ import Slide from "../presentational/Slide";
 
 class Section6 extends React.Component {
   render() {
+    console.log(this.props.windowDimensions.height);
     return (
-      <section className="margin-bottom-30">
+      <section
+        className={
+          this.props.windowDimensions.height > 767
+            ? "margin-bottom-60"
+            : "margin-bottom-30"
+        }
+      >
         <div className="container">
           <div
             id="carouselControls"
