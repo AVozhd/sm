@@ -6,7 +6,6 @@ import Slide from "../presentational/Slide";
 
 class Section6 extends React.Component {
   render() {
-    console.log(this.props.windowDimensions.height);
     return (
       <section
         className={
