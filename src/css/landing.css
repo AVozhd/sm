@@ -253,3 +253,27 @@ body.modal-open {
 .margin-bottom-60 {
   margin-bottom: 60px;
 }
+
+.sec1-container-flex {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.margin-10 {
+  margin: 10px 0;
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}

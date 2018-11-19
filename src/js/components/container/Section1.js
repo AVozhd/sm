@@ -24,18 +24,41 @@ class Section1 extends React.Component {
                   <img className="image-me" src="images/me1.png" />
                 </div>
               ) : null}
-              <div className="col-lg-6 col-md-12 topsection-text-container">
-                <Logo />
-                <h1 className="topsection-h1">Администратор в Instagram</h1>
-                <h3 className="topsection-h3">
-                  получи востребованную интернет-профессию по цене 5 чашек кофе
-                </h3>
-                <Button
-                  btntext="Записаться"
-                  btnclass="btn-main"
-                  blank={true}
-                  btnlink="http://self-marketing.getcourse.ru/page1#luchshiquchenik"
-                />
+              <div
+                className={`col-lg-6 col-md-12 topsection-text-container ${
+                  this.props.windowDimensions.width > 480
+                    ? ""
+                    : "sec1-container-flex"
+                }`}
+              >
+                <div
+                  className={`${
+                    this.props.windowDimensions.width > 480
+                      ? "margin-bottom-50"
+                      : ""
+                  }`}
+                >
+                  <Logo />
+                  <h1 className="topsection-h1">Администратор в Instagram</h1>
+                  <h3 className="topsection-h3">
+                    получи востребованную интернет-профессию по цене 5 чашек
+                    кофе
+                  </h3>
+                </div>
+                <div>
+                  <h3 className="topsection-h3 margin-0 text-uppercase">
+                    Бесплатный вебинар
+                  </h3>
+                  <h3 className="topsection-h3 margin-10">
+                    "Твоя целевая аудитория"
+                  </h3>
+                  <Button
+                    btntext="Записаться"
+                    btnclass="btn-main margin-0 text-uppercase"
+                    blank={true}
+                    btnlink="http://self-marketing.getcourse.ru/page1#besplatniy_vebinar"
+                  />
+                </div>
               </div>
             </div>
           </div>
