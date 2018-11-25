@@ -4252,7 +4252,7 @@ exports.i(__webpack_require__(/*! -!../../node_modules/css-loader!./modal.css */
 exports.i(__webpack_require__(/*! -!../../node_modules/css-loader!./section4svg.css */ "./node_modules/css-loader/index.js!./src/css/section4svg.css"), "");
 
 // module
-exports.push([module.i, "body.modal-open {\n  overflow-y: scroll;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.cover-image {\n  background: url(" + escape(__webpack_require__(/*! ../../public/images/cover1.jpg */ "./public/images/cover1.jpg")) + ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color: rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.doplogo {\n  position: fixed;\n  right: 0;\n  top: 0;\n  height: 100px;\n  width: 100px;\n  padding-right: 10px;\n  padding-top: 10px;\n  z-index: 1000;\n}\n\n.hidden {\n  display: none;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 70px;\n  margin-bottom: 50px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width: 100%;\n  max-height: 100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin-bottom: 50px;\n  display: flex;\n  align-items: center;\n  border: none;\n}\n\n@media (min-width: 992px) {\n  .card {\n    margin-bottom: 100px;\n    display: flex;\n    align-items: center;\n    border: none;\n  }\n}\n\n.section4-container {\n  background-color: #12aa8d;\n  /*background-color: #00e1ff;*/\n  padding-top: 50px;\n  padding-bottom: 50px;\n}\n\n.section4-text p {\n  text-align: center;\n  color: white;\n  margin-bottom: 20px;\n}\n\n.section4-btn {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 30px;\n  background-color: #63bedd;\n  /*background-color: #20c997;*/\n  border: none;\n  padding: 10px 0;\n}\n\n.section4-img {\n  width: inherit;\n}\n\n.s4svg-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.img-center {\n  display: block;\n  margin: 0 auto;\n}\n\n.margin-bottom-30 {\n  margin-bottom: 30px;\n}\n\n.margin-bottom-0 {\n  margin-bottom: 0;\n}\n\n.margin-top-0 {\n  margin-top: 0;\n}\n\n.margin-bottom-10 {\n  margin-bottom: 10px;\n}\n\n.footer {\n  background-color: #63bedd;\n  padding: 10px 0;\n}\n\n.no-bg {\n  background: none;\n}\n\n.footer-social-img {\n  height: 50px;\n}\n\n.footer .container .row {\n  display: flex;\n  justify-content: space-around;\n}\n\n.footer-title {\n  color: white;\n  font-size: 1.3em;\n  height: inherit;\n  margin-bottom: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.section5-card {\n  max-width: 200px;\n  display: block;\n  margin: 0 auto;\n}\n\n.section5-card-link {\n  display: flex;\n  justify-content: space-between;\n  text-decoration: none;\n  color: black;\n}\n\n.section5-card-link:visited {\n  text-decoration: none;\n  color: black;\n}\n\n.section5-card-link:hover {\n  text-decoration: none;\n  color: black;\n}\n\n.actual-price {\n  color: #ed5565;\n}\n\n.sec5-price-btn {\n  width: 100%;\n}\n\n.margin-bottom-60 {\n  margin-bottom: 60px;\n}\n\n.sec1-container-flex {\n  margin: 10px 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-content: space-between;\n}\n\n.margin-0 {\n  margin: 0;\n}\n\n.text-uppercase {\n  text-transform: uppercase;\n}\n\n.margin-10 {\n  margin: 10px 0;\n}\n\n.margin-bottom-50 {\n  margin-bottom: 50px;\n}\n", ""]);
+exports.push([module.i, "body.modal-open {\n  overflow-y: scroll;\n}\n\n.text-center {\n  text-align: center;\n}\n\n.cover-image {\n  background: url(" + escape(__webpack_require__(/*! ../../public/images/cover1.jpg */ "./public/images/cover1.jpg")) + ") no-repeat center center fixed;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.topsection-view {\n  height: inherit;\n  width: inherit;\n  background-color: rgba(0, 0, 0, 0.5);\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n}\n\n.container,\n.row {\n  height: inherit;\n}\n\n.image-me-container {\n  display: flex;\n  align-items: flex-end;\n}\n\n.image-me {\n  height: inherit;\n  width: inherit;\n  bottom: 0;\n  margin-left: auto;\n}\n\n.topsection-text-container {\n  margin-top: auto;\n  margin-bottom: auto;\n}\n\n.topsection-h1,\n.topsection-h3 {\n  color: white;\n  text-align: center;\n}\n\n.topsection-h1 {\n  font-weight: bold;\n}\n\n@media (min-width: 992px) {\n  .topsection-h1 {\n    font-size: 60px;\n  }\n}\n\n.logo {\n  display: block;\n  height: 200px;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 20px;\n}\n\n.doplogo {\n  position: fixed;\n  right: 0;\n  top: 0;\n  height: 100px;\n  width: 100px;\n  padding-right: 10px;\n  padding-top: 10px;\n  z-index: 1000;\n}\n\n.hidden {\n  display: none;\n}\n\n.btn-main {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 50px;\n  background-color: #012130;\n  border: 1px solid white;\n  padding: 10px 0;\n}\n\n.section2-title {\n  margin-top: 70px;\n  margin-bottom: 50px;\n  margin-left: auto;\n  margin-right: auto;\n  font-weight: bold;\n  text-align: center;\n}\n\n.section2-card-img {\n  max-width: 100%;\n  max-height: 100%;\n}\n\n.section2-card-title {\n  font-weight: bold;\n}\n\n.card {\n  margin-bottom: 50px;\n  display: flex;\n  align-items: center;\n  border: none;\n}\n\n@media (min-width: 992px) {\n  .card {\n    margin-bottom: 100px;\n    display: flex;\n    align-items: center;\n    border: none;\n  }\n}\n\n.section4-container {\n  background-color: #12aa8d;\n  /*background-color: #00e1ff;*/\n  padding-top: 50px;\n  padding-bottom: 50px;\n}\n\n.section4-text p {\n  text-align: center;\n  color: white;\n  margin-bottom: 20px;\n}\n\n.section4-btn {\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 30px;\n  background-color: #63bedd;\n  /*background-color: #20c997;*/\n  border: none;\n  padding: 10px 0;\n}\n\n.section4-img {\n  width: inherit;\n}\n\n.s4svg-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.img-center {\n  display: block;\n  margin: 0 auto;\n}\n\n.margin-bottom-30 {\n  margin-bottom: 30px;\n}\n\n.margin-bottom-0 {\n  margin-bottom: 0;\n}\n\n.margin-top-0 {\n  margin-top: 0;\n}\n\n.margin-bottom-10 {\n  margin-bottom: 10px;\n}\n\n.footer {\n  background-color: #63bedd;\n  padding: 10px 0;\n}\n\n.no-bg {\n  background: none;\n}\n\n.footer-social-img {\n  height: 50px;\n}\n\n.footer .container .row {\n  display: flex;\n  justify-content: space-around;\n}\n\n.footer-title {\n  color: white;\n  font-size: 1.3em;\n  height: inherit;\n  margin-bottom: 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.section5-card {\n  max-width: 200px;\n  display: block;\n  margin: 0 auto;\n}\n\n.section5-card-link {\n  display: flex;\n  justify-content: space-between;\n  text-decoration: none;\n  color: black;\n}\n\n.section5-card-link:visited {\n  text-decoration: none;\n  color: black;\n}\n\n.section5-card-link:hover {\n  text-decoration: none;\n  color: black;\n}\n\n.actual-price {\n  color: #ed5565;\n}\n\n.sec5-price-btn {\n  width: 100%;\n}\n\n.margin-bottom-60 {\n  margin-bottom: 60px;\n}\n\n.margin-top-50 {\n  margin-top: 50px;\n}\n\n.sec1-container-flex {\n  margin: 10px 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-content: space-between;\n}\n\n.margin-0 {\n  margin: 0;\n}\n\n.text-uppercase {\n  text-transform: uppercase;\n}\n\n.margin-10 {\n  margin: 10px 0;\n}\n\n.margin-bottom-50 {\n  margin-bottom: 50px;\n}\n", ""]);
 
 // exports
 
@@ -51420,7 +51420,7 @@ var Section1 = function (_React$Component) {
               _react2.default.createElement(
                 "div",
                 {
-                  className: "col-lg-6 col-md-12 topsection-text-container " + (this.props.windowDimensions.width > 480 ? "" : "sec1-container-flex")
+                  className: "col-lg-6 col-md-12 topsection-text-container " + (this.props.windowDimensions.width > 480 ? "" : "")
                 },
                 _react2.default.createElement(
                   "div",
@@ -51439,26 +51439,12 @@ var Section1 = function (_React$Component) {
                     "\u043F\u043E\u043B\u0443\u0447\u0438 \u0432\u043E\u0441\u0442\u0440\u0435\u0431\u043E\u0432\u0430\u043D\u043D\u0443\u044E \u0438\u043D\u0442\u0435\u0440\u043D\u0435\u0442-\u043F\u0440\u043E\u0444\u0435\u0441\u0441\u0438\u044E \u043F\u043E \u0446\u0435\u043D\u0435 5 \u0447\u0430\u0448\u0435\u043A \u043A\u043E\u0444\u0435"
                   )
                 ),
-                _react2.default.createElement(
-                  "div",
-                  null,
-                  _react2.default.createElement(
-                    "h3",
-                    { className: "topsection-h3 margin-0 text-uppercase" },
-                    "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u0432\u0435\u0431\u0438\u043D\u0430\u0440"
-                  ),
-                  _react2.default.createElement(
-                    "h3",
-                    { className: "topsection-h3 margin-10" },
-                    "\"\u0422\u0432\u043E\u044F \u0446\u0435\u043B\u0435\u0432\u0430\u044F \u0430\u0443\u0434\u0438\u0442\u043E\u0440\u0438\u044F\""
-                  ),
-                  _react2.default.createElement(_Button2.default, {
-                    btntext: "\u0417\u0430\u043F\u0438\u0441\u0430\u0442\u044C\u0441\u044F",
-                    btnclass: "btn-main margin-0 text-uppercase",
-                    blank: true,
-                    btnlink: "http://self-marketing.getcourse.ru/page1#besplatniy_vebinar"
-                  })
-                )
+                _react2.default.createElement(_Button2.default, {
+                  btntext: "\u0417\u0430\u043F\u0438\u0441\u0430\u0442\u044C\u0441\u044F",
+                  btnclass: "btn-main text-uppercase " + (this.props.windowDimensions.width > 480 ? "margin-0" : "margin-top-50"),
+                  blank: true,
+                  btnlink: "http://self-marketing.getcourse.ru/page1#besplatniy_vebinar"
+                })
               )
             )
           )
@@ -51481,6 +51467,25 @@ exports.default = (0, _reactRedux.connect)(function (state) {
 }, function (dispatch) {
   return {};
 })(Section1);
+
+// sec1-container-flex
+
+/*
+<div>
+  <h3 className="topsection-h3 margin-0 text-uppercase">
+    Бесплатный вебинар
+  </h3>
+  <h3 className="topsection-h3 margin-10">
+    "Твоя целевая аудитория"
+  </h3>
+  <Button
+    btntext="Записаться"
+    btnclass="btn-main margin-0 text-uppercase"
+    blank={true}
+    btnlink="http://self-marketing.getcourse.ru/page1#besplatniy_vebinar"
+  />
+  </div>
+  */
 
 /***/ }),
 

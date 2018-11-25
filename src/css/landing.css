@@ -254,6 +254,10 @@ body.modal-open {
   margin-bottom: 60px;
 }
 
+.margin-top-50 {
+  margin-top: 50px;
+}
+
 .sec1-container-flex {
   margin: 10px 0;
   display: flex;

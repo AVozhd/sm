@@ -28,7 +28,7 @@ class Section1 extends React.Component {
                 className={`col-lg-6 col-md-12 topsection-text-container ${
                   this.props.windowDimensions.width > 480
                     ? ""
-                    : "sec1-container-flex"
+                    : ""
                 }`}
               >
                 <div
@@ -45,20 +45,14 @@ class Section1 extends React.Component {
                     кофе
                   </h3>
                 </div>
-                <div>
-                  <h3 className="topsection-h3 margin-0 text-uppercase">
-                    Бесплатный вебинар
-                  </h3>
-                  <h3 className="topsection-h3 margin-10">
-                    "Твоя целевая аудитория"
-                  </h3>
-                  <Button
-                    btntext="Записаться"
-                    btnclass="btn-main margin-0 text-uppercase"
-                    blank={true}
-                    btnlink="http://self-marketing.getcourse.ru/page1#besplatniy_vebinar"
-                  />
-                </div>
+                <Button
+                  btntext="Записаться"
+                  btnclass={`btn-main text-uppercase ${this.props.windowDimensions.width > 480
+                    ? "margin-0"
+                    : "margin-top-50"}`}
+                  blank={true}
+                  btnlink="http://self-marketing.getcourse.ru/page1#besplatniy_vebinar"
+                />
               </div>
             </div>
           </div>
@@ -78,3 +72,23 @@ export default connect(
   }),
   dispatch => ({})
 )(Section1);
+
+
+// sec1-container-flex
+
+/*
+<div>
+  <h3 className="topsection-h3 margin-0 text-uppercase">
+    Бесплатный вебинар
+  </h3>
+  <h3 className="topsection-h3 margin-10">
+    "Твоя целевая аудитория"
+  </h3>
+  <Button
+    btntext="Записаться"
+    btnclass="btn-main margin-0 text-uppercase"
+    blank={true}
+    btnlink="http://self-marketing.getcourse.ru/page1#besplatniy_vebinar"
+  />
+  </div>
+  */
